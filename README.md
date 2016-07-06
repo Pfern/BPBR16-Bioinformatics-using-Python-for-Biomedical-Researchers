@@ -2,7 +2,7 @@
 
 ## Repository for the [BPBR16](http://gtpb.igc.gulbenkian.pt/bicourses/BPBR16/) training course
 
-
+Dates: July 11th-15th 2016
 
  <table style="width:100%">
   <tr>
@@ -36,12 +36,11 @@ day 3 |[Data Columns](day3/DataColumns/DataColumns.md), , [Tabular Data](day3/Ta
 day 4 |[Data Searching](day4/DataSearching/DataSearching.md), [NGS pipeline](day4/Pipelines/NGS_pipeline.md), [BLAST Pipeline](day4/Pipelines/Running-BLAST_sys.argv.md), [Python libraries]|
 days 5 |[Hackaton] |
 =======
-Repository for the BPBR16 training course
 
-Dates: July 11th-15th 2016
+
 
 #Instructors:
-Allegra Via ( IBBE, CNR, Bari, IT, Elixir-IT Training Coordinator)
-Vincenza Colonna (Institute of Genetics and Biophysics, CNR, Napoli, IT, Elixir-IT Deputy Training Coordinator)
+[Allegra Via](http://bioinformaticstraining.pythonanywhere.com/) ( IBBE, CNR, Bari, IT, Elixir-IT Training Coordinator)<br/>
+[Vincenza Colonna](http://www.igb.cnr.it/popgenlab) (Institute of Genetics and Biophysics, CNR, Napoli, IT, Elixir-IT Deputy Training Coordinator)
 
 >>>>>>> 2bb3746d9c685707a9fe35f897e9b6997c074ef8
