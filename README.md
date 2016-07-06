@@ -6,7 +6,7 @@ Dates: July 11th-15th 2016
 
  <table style="width:100%">
   <tr>
-    <td> <img src="./img/igclogo.png" alt="yay" height="200" width="300"></td>
+    <td> <img src="./img/igclogo.png" alt="yay" height="200" width="400"></td>
     <td><img src="./img/elixir_ita_logo.png" alt="yay" height="200" width="300"></td>
   </tr>
     <td><a href="http://gtpb.igc.gulbenkian.pt/bicourses/BPBR16/" >course announcement</a></td>
