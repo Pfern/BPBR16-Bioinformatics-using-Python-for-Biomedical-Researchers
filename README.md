@@ -1,7 +1,4 @@
 # BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers
-<<<<<<< HEAD
-
-
 
 ## Repository for the [BPBR16](http://gtpb.igc.gulbenkian.pt/bicourses/BPBR16/) training course
 
@@ -10,10 +7,10 @@
  <table style="width:100%">
   <tr>
     <td> <img src="./img/igclogo.png" alt="yay" height="200" width="200"></td>
-
-    <td><img src="./img/elixir_ita_logo.png" alt="yay" height="200" width="200"><br><br></td>
+    <td><img src="./img/elixir_ita_logo.png" alt="yay" height="200" width="200"></td>
   </tr>
-  <a href="http://gtpb.igc.gulbenkian.pt/bicourses/BPBR16/" >course announcement</a><br><a href="http://gtpb.igc.gulbenkian.pt/bicourses/BPBR16/timetable.html" >course program</a>
+    <td><a href="http://gtpb.igc.gulbenkian.pt/bicourses/BPBR16/" >course announcement</a></td>
+    <td><a href="http://gtpb.igc.gulbenkian.pt/bicourses/BPBR16/timetable.html" >course program</a></td>
   <tr></tr>
 </table>
 
