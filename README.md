@@ -1,4 +1,5 @@
 # BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers
+<<<<<<< HEAD
 
 
 
@@ -37,3 +38,13 @@ day 2 | [Parsing I](day2/Parsing-Theory-I.md), [Parsing II](day2/Parsing-Theory-
 day 3 |[Data Columns](day3/DataColumns/DataColumns.md), , [Tabular Data](day3/TabularData/TabularData.md), [Best Practices](day3/Debugging/BestPracticesInProgramming.md), [Error Handling](day3/Debugging/ErrorHandling.md) , [Functions](day3/Functions/functions.md)|
 day 4 |[Data Searching](day4/DataSearching/DataSearching.md), [NGS pipeline](day4/Pipelines/NGS_pipeline.md), [BLAST Pipeline](day4/Pipelines/Running-BLAST_sys.argv.md), [Python libraries]|
 days 5 |[Hackaton] |
+=======
+Repository for the BPBR16 training course
+
+Dates: July 11th-15th 2016
+
+#Instructors:
+Allegra Via ( IBBE, CNR, Bari, IT, Elixir-IT Training Coordinator)
+Vincenza Colonna (Institute of Genetics and Biophysics, CNR, Napoli, IT, Elixir-IT Deputy Training Coordinator)
+
+>>>>>>> 2bb3746d9c685707a9fe35f897e9b6997c074ef8
