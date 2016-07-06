@@ -2,16 +2,15 @@
 
 ## Repository for the [BPBR16](http://gtpb.igc.gulbenkian.pt/bicourses/BPBR16/) training course
 
-Dates: July 11th-15th 2016
+Dates: July 11th-15th 2016<br/>
+<a href="http://gtpb.igc.gulbenkian.pt/bicourses/BPBR16/" >course announcement</a><br/>
+<a href="http://gtpb.igc.gulbenkian.pt/bicourses/BPBR16/timetable.html" >course program</a><br/>
 
  <table style="width:100%">
   <tr>
     <td> <img src="./img/igclogo.png" alt="yay" height="200" width="400"></td>
     <td><img src="./img/elixir_ita_logo.png" alt="yay" height="200" width="300"></td>
-  </tr>
-    <td><a href="http://gtpb.igc.gulbenkian.pt/bicourses/BPBR16/" >course announcement</a></td>
-    <td><a href="http://gtpb.igc.gulbenkian.pt/bicourses/BPBR16/timetable.html" >course program</a></td>
-  <tr></tr>
+  <tr/>
 </table>
 
 
