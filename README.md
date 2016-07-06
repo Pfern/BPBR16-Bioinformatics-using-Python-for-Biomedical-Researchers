@@ -33,7 +33,7 @@ day 1 | [Intro](day1/intro.md), [Unix/Linux command line](day1/Unix/UnixTheory.m
 day 2 | [Parsing I](day2/Parsing-Theory-I.md), [Parsing II](day2/Parsing-Theory-I.md)|
 day 3 |[Data Columns](day3/DataColumns/DataColumns.md), , [Tabular Data](day3/TabularData/TabularData.md), [Best Practices](day3/Debugging/BestPracticesInProgramming.md), [Error Handling](day3/Debugging/ErrorHandling.md) , [Functions](day3/Functions/functions.md)|
 day 4 |[Data Searching](day4/DataSearching/DataSearching.md), [NGS pipeline](day4/Pipelines/NGS_pipeline.md), [BLAST Pipeline](day4/Pipelines/Running-BLAST_sys.argv.md), [Python libraries]|
-days 5 |[Hackaton] |
+day 5 |[Hackaton] |
 =======
 
 
