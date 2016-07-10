@@ -11,13 +11,6 @@
 + Use libraries
 + PROGRAM!
 
-Each slot is organised as follows:
-
-
-<img src="../img/slot.png" alt="slot" style="width: 100px;"/>
-
-
-
 *At the end of this course you won’t be expert programmers, but “high level beginners”*
 
 Therefore your future as programmers strongly depends on your will to not stop programming when you go back home
@@ -68,3 +61,7 @@ Questions for getting started
 ## How is going to work
 
 <img src="../img/Timetable.png" alt="slot" style="width: 100px;"/>
+
+Each slot is organised as follows:
+
+<img src="../img/slot.png" alt="slot" style="width: 100px;"/>

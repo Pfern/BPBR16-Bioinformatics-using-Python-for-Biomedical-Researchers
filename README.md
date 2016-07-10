@@ -41,5 +41,3 @@ day 5 |[Hackaton] |
 #Instructors:
 [Allegra Via](http://bioinformaticstraining.pythonanywhere.com/) ( IBBE, CNR, Bari, IT, Elixir-IT Training Coordinator)<br/>
 [Vincenza Colonna](http://www.igb.cnr.it/popgenlab) (Institute of Genetics and Biophysics, CNR, Napoli, IT, Elixir-IT Deputy Training Coordinator)
-
->>>>>>> 2bb3746d9c685707a9fe35f897e9b6997c074ef8
