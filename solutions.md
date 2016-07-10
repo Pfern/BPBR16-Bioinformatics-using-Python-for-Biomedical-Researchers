@@ -19,3 +19,19 @@ seq_2.write(line)
 
 seq_2.close()
 ```
+
+### solution3
+
+
+
+
+### solution 4
+
+
+
+
+
+
+
+
+### solution 5
