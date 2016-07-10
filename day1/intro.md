@@ -65,5 +65,6 @@ Questions for getting started
 + Write a definition of program.
 
 
+## How is going to work
 
 <img src="../img/Timetable.png" alt="slot" style="width: 100px;"/>
