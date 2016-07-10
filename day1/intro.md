@@ -34,13 +34,16 @@ A **hackathon** (also known as a hack day, hackfest or codefest) is an event in 
 # Getting started
 
 
-### Why are we here?
-### What do you need programming for?
-### What would you like to take home from the course?
+####  Why are we here?
+#### What are your expectations?
+
 
 
 ---
+Challenge
 
+> What do you need programming for?
+> What would you like to take home from the course?
 >Write on a card
 >
 >Finish within 7 minutes
@@ -48,15 +51,18 @@ A **hackathon** (also known as a hack day, hackfest or codefest) is an event in 
 ---
 
 
-Questions for getting started
-(given to small groups on cards)
+---
+Challenge
+>
+>Questions for getting started (given to small groups on cards)
 
-+ Write examples of 4 programs you know
-+ What methods do you know to give commands to your computer (e.g. to start a program)
-+ What is UNIX? What is a UNIX shell? Write a tentative definition.
-+ What do programs do?
-+ Write a definition of program.
-
+> + Write examples of 4 programs you know
+> + What methods do you know to give commands to your computer (e.g. to start a program)
+> + What is UNIX? What is a UNIX shell? Write a tentative definition.
+> + What do programs do?
+> + Write a definition of program.
+>
+---
 
 ## How is going to work
 
