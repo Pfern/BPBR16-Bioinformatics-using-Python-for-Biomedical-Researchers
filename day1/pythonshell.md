@@ -151,8 +151,7 @@ x2 = 45.83
 y2 = 31.11
 z2 = 92.04
 
-dist = math.sqrt((x1-x2)**2 + (y1-y2)**2 +
-(z1-z2)**2)
+dist = math.sqrt((x1-x2)**2 + (y1-y2)**2 + (z1-z2)**2)
 print dist
 ```
 
