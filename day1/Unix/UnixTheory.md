@@ -1,17 +1,17 @@
-# UNIX command line
+  # UNIX command line
 
 ## What is the computer shell?
 
 The shell is an interpreter (a program) that lets you interact with the operating system
-![](../img/f1_shell.png)
+![](../../img/f1_shell.png)
 
 
 ## What is the graphical interface?
-![](../img/f2_graphinter.png)
+![](../../img/f2_graphinter.png)
 
 
 ## What is the command line interface (or Terminal)?
-![](../img/f3_shell.png)
+![](../../img/f3_shell.png)
 
 
 ## Open a command-line terminal on your computer
@@ -34,7 +34,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ```  
 
-![](../img/f4_command.png)
+![](../../img/f4_command.png)
 
 ## The Terminal can be customized
 
@@ -71,7 +71,7 @@ Type the Unix command ```ls``` at the command prompt: what happens?
 
 The file-system is arranged in a hierarchical structure, like an inverted tree:
 
-![t17](../img/t17.png )
+![t17](../../img/t17.png )
 
 
 The top of the hierarchy is traditionally called **root**
@@ -123,7 +123,7 @@ Start the nano text editor:
 [corso@benode01]$ nano
 
 ```
-![nano](../img/nano.png )
+![nano](../../img/nano.png )
 
 - Create a text file “myfile.txt” and save it in your home directory
 - Go to the command-line interface and type ``` ls ``` at the prompt: can you see the newly created file?
@@ -159,9 +159,9 @@ List the files in the directory. Can you see the ``` myfile.txt ```?
 ----
 ------
 
-## Challenge
+#### Challenge
 
-### Replace the XXX
+#### Replace the XXX
 
 • If you've made a typo: XXX to cancel the whole line
 
@@ -178,7 +178,7 @@ List the files in the directory. Can you see the ``` myfile.txt ```?
 • You can use a XXX to write programs
 
 
-### Options and arguments
+#### Options and arguments
 • There are commands that can take XXX
 
 • Commands may also take XXX
@@ -192,7 +192,7 @@ List the files in the directory. Can you see the ``` myfile.txt ```?
 • The command name, XXX and XXX must be separated by XXX
 
 
-### A few more questions…
+#### A few more questions…
 • What is command-line completion?
 
 • What is a default argument?
@@ -215,7 +215,7 @@ Prerequisites to run a program are:
 Each file (and directory) has associated access rights, which may
 be found by typing ```ls -l```
 
-![t34](../img/t34.png)
+![t34](../../img/t34.png)
 
 Access rights on directories:
 - **r** allows users to list files in the directory
@@ -247,16 +247,16 @@ The command to change access rights is [chmod](https://en.wikipedia.org/wiki/Chm
 
 Write commands in a file and make the file executable:
 
-![first](../img/fisrt.png )
+![first](../../img/first.png)
 
 
->**&#!/bin/bash**
+>**&#!/bin/bash** <br/>
 > "Aha, you want to use the program located at /bin/bash to interpret all the instructions that follow"
 (Bradnam&Korf - Unix and Perl to the Rescue)
 
 Great Job! Now you want to execute the script. First you have to tell Unix where it can find it.
 
-### Where Unix searches for programs?
+### Where does Unix search for programs?
 
 Once you have made a script executable you can always run it by prefixing its name with a path:
 
@@ -284,7 +284,7 @@ Unix keeps track of several special variables that are associated with your acco
 
 Write a text file and save it as shell_commands.sh:
 
-![first2](../img/first2.png)
+![first2](../../img/first2.png)
 
 ```
 [corso@benode01]$ chmod a+x shell_commands.sh
@@ -379,7 +379,7 @@ wget [option]... [URL]...
 
 ## Listing files and directories
 
-![tab47](../img/t47.png )
+![tab47](../../img/t47.png )
 
 ### The directories ‘.’, ‘..’, and ‘~’
 
@@ -392,9 +392,9 @@ $ ls ~/oeiras
 ```
 
 ## Handling files and directories
-![tab48](../img/t48.png)
+![tab48](../../img/t48.png)
 
 ```more``` ,  ```less```,  ```clear```
 
 ## Redirection
-![tab49](../img/t49.png)
+![tab49](../../img/t49.png)
