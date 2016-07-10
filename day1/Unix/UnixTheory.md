@@ -1,4 +1,4 @@
-  # UNIX command line
+# UNIX command line
 
 ## What is the computer shell?
 
@@ -77,7 +77,7 @@ The file-system is arranged in a hierarchical structure, like an inverted tree:
 The top of the hierarchy is traditionally called **root**
 > When you first login, the current working directory is your home directory (containing files and directories that only you can modify)
 
-## How can you navigate the filesystem?
+## CHALLENGE How can you navigate the filesystem?
 
 Most likely you will need to navigate the filesystem to:
 
