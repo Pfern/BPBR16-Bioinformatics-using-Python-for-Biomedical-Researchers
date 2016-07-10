@@ -35,7 +35,7 @@ and print it
 seq = open("SingleSeq.fasta")
 
 for line in seq:
-print line
+    print line
 ```
 
 ### Program 2
@@ -51,7 +51,7 @@ seq = open("SingleSeq.fasta")
 seq_2 = open("SingleSeq-2.fasta","w")
 
 for line in seq:
-seq_2.write(line)
+    seq_2.write(line)
 
 seq_2.close()
 ```
@@ -131,8 +131,8 @@ AGEGEN
 seq = open("SingleSeq.fasta")
 
 for line in seq:
-if line[0] == '>':
-print line
+    if line[0] == '>':
+        print line
 
 >sp|P31946|1433B_HUMAN 14-3-3 protein beta/alpha OS=Homo sapiens
 MTMDKSELVQKAKLAEQAERYDDMAAAMKAVTEQGHELSNEERNLLSVAYKNVVGARR
@@ -146,16 +146,16 @@ AGEGEN
 seq = open("SingleSeq.fasta")
 
 for line in seq:
-if line[0] == '>':
-print line
+    if line[0] == '>':
+        print line
 ```
 
 ```
 seq = open("SingleSeq.fasta")
 
 for line in seq:
-if line[0] != '>':
-print line
+    if line[0] != '>':
+        print line
 ```
 
 
@@ -163,8 +163,8 @@ print line
 seq = open("SingleSeq.fasta")
 
 for line in seq:
-if line[0] != '>':
-print line
+    if line[0] != '>':
+        print line
 ```
 
 ### Program 4
@@ -180,8 +180,8 @@ fasta = open('SingleSeq.fasta')
 header = open('header.txt', 'w’)
 
 for line in fasta:
-if line[0] == '>':
-header.write(line)
+    if line[0] == '>':
+        header.write(line)
 
 header.close()
 ```
@@ -199,8 +199,8 @@ fasta = open('SingleSeq.fasta')
 seq = open('seq.txt','w')
 
 for line in fasta:
-if line[0] != '>':
-seq.write(line)
+    if line[0] != '>':
+        seq.write(line)
 
 seq.close()
 ```
@@ -220,10 +220,10 @@ header = open('header.txt', 'w')
 seq = open('seq.txt','w')
 
 for line in fasta:
-if line[0] == '>':
-header.write(line)
-else:
-seq.write(line)
+    if line[0] == '>':
+        header.write(line)
+    else:
+        seq.write(line)
 
 header.close()
 seq.close()
@@ -245,10 +245,10 @@ seq_fasta = open("SingleSeq.fasta")
 seq = ''
 
 for line in seq_fasta:
-if line[0] == '>':
-header = line
-else:
-seq = seq + line.strip()
+    if line[0] == '>':
+        header = line
+    else:
+        seq = seq + line.strip()
 
 print header, seq
 ```
@@ -270,10 +270,10 @@ seq_fasta = open("SingleSeq.fasta")
 seq = ''
 
 for line in seq_fasta:
-if line[0] == '>':
-header = line
-else:
-seq = seq + line.strip()
+    if line[0] == '>':
+        header = line
+    else:
+        seq = seq + line.strip()
 
 num_cys = seq.count("C")
 
@@ -297,17 +297,17 @@ seq = ''
 header = ''
 
 for line in seq_fasta:
-if line[0] == '>':
-if "Homo sapiens" in line:
-header = line
-else:
-if header:
-seq = seq + line
+    if line[0] == '>':
+        if "Homo sapiens" in line:
+            header = line
+        else:
+            if header:
+                seq = seq + line
 
 if header:
-print header + seq
+    print header + seq
 else:
-print "The record is not from H. sapiens"
+    print "The record is not from H. sapiens"
 ```
 
 ### Program 9
@@ -350,8 +350,8 @@ fasta = open('SwissProt-Human.fasta')
 headers = open('headers.txt', 'w')
 
 for line in fasta:
-if line[0] == '>':
-headers.write(line)
+    if line[0] == '>':
+        headers.write(line)
 
 headers.close()
 
@@ -372,10 +372,11 @@ fasta = open('SwissProt-Human.fasta.fasta')
 seqs = open('seqs.txt', 'w')
 
 for line in fasta:
-if line[0] == '>':
-seqs.write('\n')
-elif line[0] != '>':
-seqs.write(line)
+    if line[0] == '>':
+        seqs.write('\n')
+    elif line[0] != '>':
+        seqs.write(line)
+
 seqs.close()
 
 
@@ -396,9 +397,9 @@ human_fasta = open('SwissProt-Human.fasta')
 Outfile = open('SwissProt-Human-AC.txt','w')
 
 for line in human_fasta:
-if line[0] == '>':
-AC = line.split('|')[1]
-Outfile.write(AC + '\n')
+    if line[0] == '>':
+        AC = line.split('|')[1]
+        Outfile.write(AC + '\n')
 
 Outfile.close()
 ```
@@ -418,15 +419,15 @@ fasta = open('sprot_prot.fasta')
 seq = ''
 
 for line in fasta:
-if line[0] == '>' and seq == '':
-header = line[4:10]
-elif line[0] != '>':
-seq = seq + line.strip()
-elif line[0] == '>' and seq != '':
-cys_num = seq.count('C')
-print header, ': ', cys_num
-header = line[4:10]
-seq = ''
+    if line[0] == '>' and seq == '':
+        header = line[4:10]
+    elif line[0] != '>':
+        seq = seq + line.strip()
+    elif line[0] == '>' and seq != '':
+        cys_num = seq.count('C')
+        print header, ': ', cys_num
+        header = line[4:10]
+        seq = ''
 
 cys_num = seq.count('C')
 print header, ': ', cys_num
@@ -440,14 +441,14 @@ fasta = open('sprot_prot.fasta')
 seq = ''
 
 for line in fasta:
-if line[0]=='>':
-if seq:
-cys_num = seq.count('C')
-print header, ':' , cys_num
-header = line.split('|')[1]
-seq = ''
-else:
-seq = seq + line.strip()
+    if line[0]=='>':
+        if seq:
+            cys_num = seq.count('C')
+            print header, ':' , cys_num
+        header = line.split('|')[1]
+        seq = ''
+    else:
+        seq = seq + line.strip()
 ```
 
 ### Program 12
@@ -463,18 +464,14 @@ fasta = open('sprot_prot.fasta')
 output = open('homo_sapiens.fasta', 'w')
 seq = ''
 for line in fasta:
-if line[0] == '>' and seq == '':
-header = line
-elif line[0] != '>':
-seq = seq + line
-elif line[0] == '>' and seq != '':
-if "Homo sapiens" in header:
-output.write(header + seq)
-header = line
-seq = ''
+    if line[0] == '>' and seq == '':
+        header = line
+    elif line[0] != '>':
+        seq = seq + line
+    elif line[0] == '>' and seq != '':
 
 if "Homo sapiens" in header:
-output.write(header + seq)
+    output.write(header + seq)
 
 output.close()
 ```
