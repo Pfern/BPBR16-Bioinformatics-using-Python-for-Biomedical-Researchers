@@ -11,6 +11,9 @@ In this module you can learn:
 ### Traces in the desert sand…
 <img src="../img/desert.png" alt="slot" style="width: 200px;"/>
 
+
+![image](../img/desert.png = 100x100)
+
 Fill in dashed lines with appropriate values using the python interactive shell
 
 ```
