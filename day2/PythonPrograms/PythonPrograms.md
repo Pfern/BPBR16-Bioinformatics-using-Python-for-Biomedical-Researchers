@@ -130,10 +130,11 @@ outfile.close()
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.solutions.md#solution-to-challenge-4">solution to challenge #4<a/>
 
 
-<img src="../../img/pp7.png" alt="slot" style="width: 100px;"/>
 
 
 ## Counting amino acids
+<img src="../../img/pp7.png" alt="slot" style="width: 100px;"/>
+
 ```
 # insulin [Homo sapiens] GI:386828
 insulin = "GIVEQCCTSICSLYQLENYCFVNQHLC\
@@ -226,12 +227,12 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 ## Recap
 ### Recap I
 -  string variables contain text
--  print writes to the screen
+-  `print` writes to the screen
 -  you can use functions to do things
--  you can enter text with raw_input()
--  write() writes to an open file
+-  you can enter text with `raw_input()`    
+-  `write()` writes to an open file
 -  for loops repeat commands
--  comments starts with # or '''
+-  comments starts with `#` or `'''`
 
 ### Recap II
 <img src="../../img/pp9.png" alt="slot" style="width: 100px;"/>
