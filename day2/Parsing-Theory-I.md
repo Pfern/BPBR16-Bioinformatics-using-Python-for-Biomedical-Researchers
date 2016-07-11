@@ -23,9 +23,8 @@ YEILNSPEKACSLAKTAFDEAIAELDTLNEESYKDSTLIMQLLRDNLTLWTSENQGDEGD
 AGEGEN
 ```
 
-
+> #### **Challenge #1**
 ---
-> **Challenge #1**
 >
 >Open the file `SingleSeq.fasta`, read its content line by line and print it
 >
