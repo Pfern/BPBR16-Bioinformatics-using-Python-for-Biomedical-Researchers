@@ -9,7 +9,7 @@ In this module you can learn:
 
 
 ### Traces in the desert sand…
-<img src="../img/desert.png" alt="slot" style="width: 100px;"/>
+<img src="../../img/desert.png" alt="slot" style="width: 100px;"/>
 
 Fill in dashed lines with appropriate values using the python interactive shell
 
@@ -52,16 +52,18 @@ Type "help", "copyright", "credits" or "license" for more information.
 You can leave the shell with  `Ctrl-D`
 
 
-#### Challenge d1.1
-#### Open a Python interactive session (the Python shell):
-
-+  Calculate the sum and difference of two
+---
+> **Challenge #1**
+> Open a Python interactive session (the Python shell):
+>
+>+  Calculate the sum and difference of two
 numbers
-+  Divide two numbers. Try 5/3.
-+ Then try 5.0/3
-+  Calculate 3x5
-+  Calculate a power of 2
-
+>+  Divide two numbers. Try 5/3.
+>+ Then try 5.0/3
+>+  Calculate 3x5
+>+  Calculate a power of 2
+>
+----
 
 ### Variables
 Variables are containers for data.
@@ -94,11 +96,11 @@ import math
 
 Find the matching pairs of functions and x/y values.
 
-<img src="../img/mathgame.png" alt="slot" style="width: 300px;"/>
+<img src="../../img/mathgame.png" alt="slot" style="width: 300px;"/>
 
 
 ### Components of Python
-<img src="../img/pycomponents.png" alt="slot" style="width: 300px;"/>
+<img src="../../img/pycomponents.png" alt="slot" style="width: 300px;"/>
 
 
 ### Recap
@@ -110,59 +112,44 @@ Find the matching pairs of functions and x/y values.
 + Third, and only if it is really necessary,
 make it fast.
 
-#### Challenge d1.2
-Calculate the volume of a cell
+---
+> **Challenge #2**
+>+   The diameter of a cell is 10 μm.
+>+ What volume does that cell have given it is a perfect sphere?
+>+  Use Python to do the calculation.
+>+  Use variables for the parameters.
+>+  Print the volume to the screen
+>
+---
 
 
-+   The diameter of a cell is 10 μm.
-+ What volume does that cell have given it is a perfect sphere?
-+  Use Python to do the calculation.
-+  Use variables for the parameters.
-+  Print the volume to the screen
+---
+> **Challenge #3**
+>Calculate the distance between two points in the 3D space
+>
+>Given two points in the Cartesian space:
+>
+>P1 = (43.64, 30.72, 88.95)
+>P2 = (45.83, 31.11, 92.04)
+>
+>+  Use Python to calculate their distance
+>+   Use variables for the parameters
+>+   Print the distance to the screen
+>
+---
 
 
+---
+> **Challenge #4**
+>Find cysteine bonds in the Insulin structure
+>
+>+   Data in 2OMH.pdb
+>+   Lines containing 'SG'
+>+   x, y, z coordinates
+>+   Use what you learnt from Task 2
+>
+---
 
-```
-from math import pi
-R = 10.0
-V = (4.0/3.0)*pi*(R**3)
-print V
-```
-#### Challenge d1.3
-Calculate the distance between two points in the 3D space
-
-Given two points in the Cartesian space:
-
-P1 = (43.64, 30.72, 88.95)
-P2 = (45.83, 31.11, 92.04)
-
-+  Use Python to calculate their distance
-+   Use variables for the parameters
-+   Print the distance to the screen
-
-```
-import math
-
-x1 = 43.64
-y1 = 30.72
-z1 = 88.95
-
-x2 = 45.83
-y2 = 31.11
-z2 = 92.04
-
-dist = math.sqrt((x1-x2)**2 + (y1-y2)**2 + (z1-z2)**2)
-print dist
-```
-
-#### Challenge d1.4
-Find cysteine bonds in the Insulin structure
-
-
-+   Data in 2OMH.pdb
-+   Lines containing 'SG'
-+   x, y, z coordinates
-+   Use what you learnt from Task 2
 
 ```
 HEADER    HORMONE                                 22-JAN-07   2OMH
@@ -192,40 +179,27 @@ ATOM     15  C   VAL A   3      -7.193  14.102   4.747  1.00 19.43           C
 ATOM     16  O   VAL A   3      -6.395  14.820   5.357  1.00 19.23           O
 ```
 
-#### Challenge d1.5
-The hydrolysis of one phosphodiester bond from ATP results in a standard
-Gibbs energy (ΔG<sup>0</sup>) of -30.5 kJ/mol. According to biochemistry textbooks, the real ΔG value depends on the concentration of the compounds and these concentrations can differ quite a lot among tissues.
+---
+> **Challenge #5**
+>The hydrolysis of one phosphodiester bond from ATP results in a standard Gibbs energy (ΔG<sup>0</sup>) of -30.5 kJ/mol. According to biochemistry textbooks, the real ΔG value depends on the concentration of the compounds and these concentrations can differ quite a lot among tissues.
+>
+>The Gibbs energy as a function of the concentrations of the compounds can be written as:
+>
+>ΔG = ΔG<sup>0</sup>  + RT \* ln ( [ADP] * [Pi] / [ATP])
+>
+>Knowing that:
+>
+>R = 0.00831
+>
+>T = 298
+>
+>+  Use Python to calculate the real DG in the tissues reported in the table.
+>+  Use variables for the parameters.
+>+  Print the results to the screen.
+>
+---
 
-The Gibbs energy as a function of the concentrations of the compounds can be written as:
 
-ΔG = ΔG<sup>0</sup>  + RT \* ln ( [ADP] * [Pi] / [ATP])
-
-Knowing that:
-
-R = 0.00831
-
-T = 298
-
-+  Use Python to calculate the real DG in the tissues reported in the table.
-+  Use variables for the parameters.
-+  Print the results to the screen.
-
-<img src="../img/task4table.png" alt="slot" style="width: 300px;"/>
-
-```
-import math
-
-ATP = 3.5
-ADP = 1.8
-Pi = 5.0
-R = 0.00831
-T = 298
-deltaG0 = -30.5
-
-deltaG = deltaG0 + R * T * math.log(ADP * Pi / ATP)
-
-print deltaG
-```
 
 ### Recap
 
