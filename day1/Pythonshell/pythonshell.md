@@ -127,7 +127,7 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 
 
 ---
-> **Challenge #3**
+> **Challenge #3**<br>
 >Calculate the distance between two points in the 3D space
 >
 >Given two points in the Cartesian space:
@@ -146,7 +146,7 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/Pythonshell/pythonshell.solutions.md#solution-to-challenge-3">Solution to challenge #3</a>
 
 ---
-> **Challenge #4**
+> **Challenge #4**<br>
 >Find cysteine bonds in the Insulin structure
 >
 >+   Data in 2OMH.pdb
@@ -186,7 +186,7 @@ ATOM     16  O   VAL A   3      -6.395  14.820   5.357  1.00 19.23           O
 ```
 
 ---
-> **Challenge #5**
+> **Challenge #5**<br>
 >The hydrolysis of one phosphodiester bond from ATP results in a standard Gibbs energy (ΔG<sup>0</sup>) of -30.5 kJ/mol. According to biochemistry textbooks, the real ΔG value depends on the concentration of the compounds and these concentrations can differ quite a lot among tissues.
 >
 >The Gibbs energy as a function of the concentrations of the compounds can be written as:

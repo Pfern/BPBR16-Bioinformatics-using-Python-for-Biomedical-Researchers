@@ -12,6 +12,9 @@ Dates: July 11th-15th 2016<br/>
     <td><img src="./img/elixir_ita_logo.png" alt="yay" height="100" width="150"></td>
     <td><img src="./img/elixir_ptg_logo.png" alt="yay" height="100" width="170"></td>
   <tr/>
+  <tr>
+  <img src="./img/GTBP2015logo.png" alt="yay" height="200" width="300">
+  <tr/>
 </table>
 
 
