@@ -1,4 +1,4 @@
-# unix
+# unix - How comfortable are you about applying what you have just learned about Unix command line and the Tutorial?
 ```      
           x
           x
@@ -12,7 +12,7 @@
 0 1 2 3 4 5
 - - 2 3 6 9
 ```
-# how comfortable are you using the python shell by yourself
+# how comfortable are you using the python shell by yourself?
 ```        
         x x
         x x
