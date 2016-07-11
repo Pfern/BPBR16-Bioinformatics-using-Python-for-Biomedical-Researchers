@@ -81,19 +81,19 @@ L = []             # the empty list
 
 
 ```
->>> L = [1,”hello”,12.1,[1,2,”three”],”seq”,(1,2)]
+>>> L = [1,"hello",12.1,[1,2,"three"],"seq",(1,2)]
 >>> L[0]  # indexing
 1
 >>> L[3]  # indexing
-[1, 2, ’three']
+[1, 2, 'three']
 >>> L[3][2]  # indexing
-‘three’
+'three'
 >>> L[-1]  # negative indexing
 (1, 2)
 >>> L[2:4]
-[12.1, [1, 2, ‘three’]]  # slicing
+[12.1, [1, 2, 'three']]  # slicing
 >>> L[2:]
-[12.1, [1, 2, ‘three’], ‘seq’, (1, 2)] #slicing shorthand
+[12.1, [1, 2, 'three'], 'seq', (1, 2)] #slicing shorthand
 >>>
 ```
 
@@ -149,24 +149,24 @@ The elements of a list can be changed/replaced after the list has been defined
 
 ```
 >>> l = [1,3,5,7,8,['a','b'],'a','b','cde']
->>> l.count(‘a’)
+>>> l.count('a')
 >>> l
 1
 >>> l.index(8)
 4
 >>> l.insert(4, 80)
 >>> l
-[1, 3, 5, 7, 80, 8, [‘a’, ‘b’], ‘a’, ‘b’, ‘cde’]
+[1, 3, 5, 7, 80, 8, ['a', 'b'], 'a', 'b', 'cde']
 >>> l.pop(4)
 80
 >>> l
-[1, 3, 5, 7, 8, [‘a’, ‘b’], ‘a’, ‘b’, ‘cde’]
+[1, 3, 5, 7, 8, ['a', 'b'], 'a', 'b', 'cde']
 >>> l.pop()
-‘cde’
+'cde'
 >>> l
-[1, 3, 5, 7, 8, [‘a’, ‘b’], ‘a’, ‘b’]
+[1, 3, 5, 7, 8, ['a', 'b'], 'a', 'b']
 >>> l.remove(8)
-[1, 3, 5, 7, [‘a’, ‘b’], ‘a’, ‘b’]
+[1, 3, 5, 7, ['a', 'b'], 'a', 'b']
 The elements of a list can be changed/replaced after the list has been defined
 ```
 
@@ -174,7 +174,7 @@ The elements of a list can be changed/replaced after the list has been defined
 
 
 | |
-|--|
+|--------|
 |l.reverse()|
 |l.sort()|
 |sorted(l)|
@@ -275,7 +275,7 @@ other. Check if the record header contains one of the
 ```
 cancer_file = open('cancer-expressed.txt')
 human_fasta = open('SwissProt-Human.fasta')
-Outfile = open(‘cancer-expressed.fasta’,’w’)
+Outfile = open('cancer-expressed.fasta','w')
 
 cancer_list = []
 
@@ -431,7 +431,7 @@ True
 ````
 
 We can use while loops to read files
-(but usually we won’t do it):
+(but usually we won't do it):
 
 ```
 cancer_file = open('cancer-expressed.txt')
