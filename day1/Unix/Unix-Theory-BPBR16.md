@@ -145,8 +145,7 @@ Before talking about Linux commands, we need to answer a question:
 - executes the program `rm` on `myfile.txt`
 - After the process `rm myfile.txt` has finished running, the shell returns the prompt `%` to you, indicating that it is waiting for further commands.
 
-![example](../../img/examplecommand.png)
-
+![example](../../img/examplecommand_crop.png)
 
 
 ```
@@ -202,11 +201,12 @@ XXX
 -   Access your home directory using the command-line interface
 -   Start the nano text editor
 
-![nano](../../nano.png)
+![nano](../../img/nano.png)
 
 
 - Create a text file `my_first_shell_script.sh`
-![nano](../../first.png)
+
+![firstshell](../../first.png)
 
 - Write the commands in a file, save and exit
 
@@ -421,6 +421,3 @@ $ ls ~/oeiras
 
 ## Redirection
 ![tab49](../../img/t49.png)
-
-
-

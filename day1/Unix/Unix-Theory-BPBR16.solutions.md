@@ -19,6 +19,8 @@
 -   Remove a file
 -   Run programs
 
+<br>
+<br>
 
 #### Solution to challenge #3
 ![ch3sol](../../img/chall3sol.png)
