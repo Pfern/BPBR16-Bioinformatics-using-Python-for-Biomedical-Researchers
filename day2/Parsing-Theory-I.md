@@ -31,14 +31,6 @@ AGEGEN
 >
 ---
 
-#### Solution to challenge #1
-
-```
-seq = open("SingleSeq.fasta")
-
-for line in seq:
-    print line
-```
 
 ---
 > **Challenge #2**
@@ -49,17 +41,6 @@ for line in seq:
 
 
 
-#### Solution to challenge #2
-
-```
-seq = open("SingleSeq.fasta")
-seq_2 = open("SingleSeq-2.fasta","w")
-
-for line in seq:
-    seq_2.write(line)
-
-seq_2.close()
-```
 ### Writing different things depending on a condition
 
 Read a sequence in FASTA format and print only the header of the sequence
@@ -133,47 +114,6 @@ AGEGEN
 >
 ---
 
-#### Solution to challenge #3
-
-```
-seq = open("SingleSeq.fasta")
-
-for line in seq:
-    if line[0] == '>':
-        print line
-
->sp|P31946|1433B_HUMAN 14-3-3 protein beta/alpha OS=Homo sapiens
-MTMDKSELVQKAKLAEQAERYDDMAAAMKAVTEQGHELSNEERNLLSVAYKNVVGARR
-WRVISSIEQKTERNEKKQQMGKEYREKIEAELQDICNDVLELLDKYLIPNATQPESKVFY
-LKMKGDYFRYLSEVASGDNKQTTVSNSQQAYQEAFEISKKEMQPTHPIRLGLALNFSVF
-YEILNSPEKACSLAKTAFDEAIAELDTLNEESYKDSTLIMQLLRDNLTLWTSENQGDEGD
-AGEGEN
-```
-
-```
-seq = open("SingleSeq.fasta")
-
-for line in seq:
-    if line[0] == '>':
-        print line
-```
-
-```
-seq = open("SingleSeq.fasta")
-
-for line in seq:
-    if line[0] != '>':
-        print line
-```
-
-
-```
-seq = open("SingleSeq.fasta")
-
-for line in seq:
-    if line[0] != '>':
-        print line
-```
 
 ---
 > **Challenge #4**
@@ -184,19 +124,6 @@ only the header of the record.
 ---
 
 
-#### Solution to challenge #4
-
-```
-fasta = open('SingleSeq.fasta')
-header = open('header.txt', 'w’)
-
-for line in fasta:
-    if line[0] == '>':
-        header.write(line)
-
-header.close()
-```
-
 ---
 > **Challenge #5**
 >
@@ -204,18 +131,6 @@ header.close()
 >
 ---
 
-#### Solution to challenge #5
-
-```
-fasta = open('SingleSeq.fasta')
-seq = open('seq.txt','w')
-
-for line in fasta:
-    if line[0] != '>':
-        seq.write(line)
-
-seq.close()
-```
 
 ---
 > **Challenge: Merge programs 4 and 5**
@@ -224,23 +139,6 @@ seq.close()
 >
 ---
 
-#### Solution to challenge #4 and #5 mergred
-
-
-```
-fasta = open('SingleSeq.fasta')
-header = open('header.txt', 'w')
-seq = open('seq.txt','w')
-
-for line in fasta:
-    if line[0] == '>':
-        header.write(line)
-    else:
-        seq.write(line)
-
-header.close()
-seq.close()
-```
 
 
 ---
@@ -255,21 +153,6 @@ seq.close()
 ---
 
 
-#### Solution to challenge #6
-
-```
-seq_fasta = open("SingleSeq.fasta")
-
-seq = ''
-
-for line in seq_fasta:
-    if line[0] == '>':
-        header = line
-    else:
-        seq = seq + line.strip()
-
-print header, seq
-```
 
 ---
 > **Challenge #7**
@@ -280,24 +163,6 @@ print header, seq
 ---
 
 
-#### Solution to challenge #7
-
-```
-seq_fasta = open("SingleSeq.fasta")
-
-seq = ''
-
-for line in seq_fasta:
-    if line[0] == '>':
-        header = line
-    else:
-        seq = seq + line.strip()
-
-num_cys = seq.count("C")
-
-print header, seq, num_cys
-```
-
 ---
 > **Challenge #8**
 >
@@ -306,29 +171,6 @@ print header, seq, num_cys
 >
 ---
 
-
-
-#### Solution to challenge #8
-
-```
-seq_fasta = open("SingleSeq.fasta")
-
-seq = ''
-header = ''
-
-for line in seq_fasta:
-    if line[0] == '>':
-        if "Homo sapiens" in line:
-            header = line
-        else:
-            if header:
-                seq = seq + line
-
-if header:
-    print header + seq
-else:
-    print "The record is not from H. sapiens"
-```
 
 ---
 > **Challenge #9**
@@ -367,23 +209,6 @@ EAGEGN
 ---
 
 
-
-#### Solution to challenge #9
-```
-fasta = open('SwissProt-Human.fasta')
-headers = open('headers.txt', 'w')
-
-for line in fasta:
-    if line[0] == '>':
-        headers.write(line)
-
-headers.close()
-
->sp|P31946|1433B_HUMAN 14-3-3 protein beta/alpha OS=Homo sapiens
->sp|P62258|1433E_HUMAN 14-3-3 protein epsilon OS=Homo sapiens
->sp|Q04917|1433F_HUMAN 14-3-3 protein eta OS=Homo sapiens GN=YWHAH
-```
-
 ---
 > **Challenge #10**
 >
@@ -392,24 +217,6 @@ headers.close()
 ---
 
 
-#### Solution to challenge #10
-
-```
-fasta = open('SwissProt-Human.fasta.fasta')
-seqs = open('seqs.txt', 'w')
-
-for line in fasta:
-    if line[0] == '>':
-        seqs.write('\n')
-    elif line[0] != '>':
-        seqs.write(line)
-
-seqs.close()
-
-
-seqs.write(line.strip() + '\n')
-```
-
 ---
 > **Challenge #11**
 >
@@ -417,20 +224,6 @@ seqs.write(line.strip() + '\n')
 >
 ---
 
-
-#### Solution to challenge #11
-
-```
-human_fasta = open('SwissProt-Human.fasta')
-Outfile = open('SwissProt-Human-AC.txt','w')
-
-for line in human_fasta:
-    if line[0] == '>':
-        AC = line.split('|')[1]
-        Outfile.write(AC + '\n')
-
-Outfile.close()
-```
 
 ---
 > **Challenge #12**
@@ -441,48 +234,6 @@ Outfile.close()
 ---
 
 
-
-#### Solution to challenge #12
-
-One possible solution:
-```
-fasta = open('sprot_prot.fasta')
-
-seq = ''
-
-for line in fasta:
-    if line[0] == '>' and seq == '':
-        header = line[4:10]
-    elif line[0] != '>':
-        seq = seq + line.strip()
-    elif line[0] == '>' and seq != '':
-        cys_num = seq.count('C')
-        print header, ': ', cys_num
-        header = line[4:10]
-        seq = ''
-
-cys_num = seq.count('C')
-print header, ': ', cys_num
-```
-
-another possible solution:
-
-```
-fasta = open('sprot_prot.fasta')
-
-seq = ''
-
-for line in fasta:
-    if line[0]=='>':
-        if seq:
-            cys_num = seq.count('C')
-            print header, ':' , cys_num
-        header = line.split('|')[1]
-        seq = ''
-    else:
-        seq = seq + line.strip()
-```
-
 ---
 > **Challenge #13**
 >
@@ -491,43 +242,6 @@ for line in fasta:
 ---
 
 
-#### Solution I to challenge #13
-
-```
-fasta = open('sprot_prot.fasta')
-output = open('homo_sapiens.fasta', 'w')
-seq = ''
-for line in fasta:
-    if line[0] == '>' and seq == '':
-        header = line
-    elif line[0] != '>':
-        seq = seq + line
-    elif line[0] == '>' and seq != '':
-
-if "Homo sapiens" in header:
-    output.write(header + seq)
-
-output.close()
-```
-#### Solution II to challenge #13
-
-```
-fasta = open('sprot_prot.fasta')
-output = open('sprot_human.fasta', 'w')
-
-seq = ''
-
-for line in fasta:
-if line[0]=='>':
-if seq:
-if "Homo sapiens" in header:
-output.write(header + seq)
-header = line
-seq = ''
-else:
-seq = seq + line
-output.close()
-```
 ---
 > **Challenge #14 homework**
 >
@@ -546,31 +260,6 @@ output.close()
 ---
 
 
-#### Solution II to challenge #14
-```
-fasta = open('SwissProtHuman.fasta','r')
-outfile = open('SwissProtHuman-Filtered.fasta','w')
-
-seq = ''
-
-for line in fasta:
-  if line[0:1] == '>' and seq == '':
-    header = line
-  elif line [0:1] != '>':
-    seq = seq + line
-  elif line[0:1] == '>' and seq != '':
-    TRP_num = seq.count('W')
-  if seq[0] == 'M' and TRP_num > 1:
-
-outfile.write(header + seq)
-seq = ''
-header = line
-
-TRP_num = seq.count('W')
-if seq[0] == 'M' and TRP_num > 1:
-  outfile.write(header + seq)
-outfile.close()
-```
 
 ---
 > **Challenge #15 homework**
@@ -590,29 +279,8 @@ Gtaccgttgtagctctctcgtaaacacaagaaccaacaccaaacaacatactacaactga
 >
 ---
 
-#### Solution II to challenge #15
-
 ```
-InputFile = open("ap006852.gbk")
-OutputFile = open("ap006852.fasta","w")
-flag = 0
 
-for line in InputFile:
-  if line[0:9] == 'ACCESSION':
-    AC = line.split()[1].strip()
-    OutputFile.write('>'+AC+'\n')
-  if line[0:6] == 'ORIGIN':
-    flag = 1
-    continue
-  if flag == 1:
-    fields = line.split()
-  if fields != []:
-    seq = ''.join(fields[1:])
-    OutputFile.write(seq +'\n')
-
-InputFile.close()
-OutputFile.close()
-```
 
 ## Parsing data records
 
