@@ -290,7 +290,8 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 
 
 > #### **Challenge #15 homework**
---->Read a Genbank record and write to a file the nucleotide sequence in FASTA format. Extract and write to a file the gene sequence from the Candida albicans genomic DNA, chromosome 7, complete sequence (file ap006852.gbk)
+---
+>Read a Genbank record and write to a file the nucleotide sequence in FASTA format. Extract and write to a file the gene sequence from the Candida albicans genomic DNA, chromosome 7, complete sequence (file ap006852.gbk)
 >
 > Try to write it in FASTA format:
 ```
