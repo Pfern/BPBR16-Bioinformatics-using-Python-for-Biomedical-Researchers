@@ -23,13 +23,15 @@ YEILNSPEKACSLAKTAFDEAIAELDTLNEESYKDSTLIMQLLRDNLTLWTSENQGDEGD
 AGEGEN
 ```
 
-### Program 1
 
+---
+> **Challenge #1**
+>
+>Open the file `SingleSeq.fasta`, read its content line by line and print it
+>
+---
 
-Open the file `SingleSeq.fasta`, read its content line by line
-and print it
-
-#### Program 1 - solution
+#### Solution to challenge #1
 
 ```
 seq = open("SingleSeq.fasta")
@@ -38,13 +40,15 @@ for line in seq:
     print line
 ```
 
-### Program 2
+---
+> **Challenge #2**
+>Open the file `SingleSeq.fasta`, read its content line by line and write it to another file.
+>
+---
 
 
-Open the file `SingleSeq.fasta`, read its content line by line
-and write it to another file.
 
-#### Program 2 - solution
+#### Solution to challenge #2
 
 ```
 seq = open("SingleSeq.fasta")
@@ -57,8 +61,7 @@ seq_2.close()
 ```
 ### Writing different things depending on a condition
 
-Read a sequence in FASTA format and print only the
-header of the sequence
+Read a sequence in FASTA format and print only the header of the sequence
 
 ```
 >sp|P31946|1433B_HUMAN 14-3-3 protein beta/alpha OS=Homo sapiens
@@ -81,7 +84,7 @@ elif condition3 #etc...
 …
 
 else:
-  statementsN
+  statements
 ```
 
 Check these conditions:
@@ -112,11 +115,11 @@ if 'T' in nucl: print 'T'
 if 'G' in nucl: print 'G'
 ```
 
-### Program 3
-
-Read a sequence in FASTA format and print only the
-header of the sequence
-
+---
+> **Challenge #3**
+>Read a sequence in FASTA format and print only the header of the sequence
+>
+>
 ```
 >sp|P31946|1433B_HUMAN 14-3-3 protein beta/alpha OS=Homo sapiens
 MTMDKSELVQKAKLAEQAERYDDMAAAMKAVTEQGHELSNEERNLLSVAYKNVVGAR
@@ -125,7 +128,10 @@ LKMKGDYFRYLSEVASGDNKQTTVSNSQQAYQEAFEISKKEMQPTHPIRLGLALNFSVF
 YEILNSPEKACSLAKTAFDEAIAELDTLNEESYKDSTLIMQLLRDNLTLWTSENQGDEGD
 AGEGEN
 ```
-#### Program 3 - solution
+>
+---
+
+#### Solution to challenge #3
 
 ```
 seq = open("SingleSeq.fasta")
@@ -167,13 +173,15 @@ for line in seq:
         print line
 ```
 
-### Program 4
-
-
-Read a file in FASTA format and write to a new file
+---
+> **Challenge #4**
+>Read a file in FASTA format and write to a new file
 only the header of the record.
+>
+---
 
-#### Program 4 - solution
+
+#### Solution to challenge #4
 
 ```
 fasta = open('SingleSeq.fasta')
@@ -186,13 +194,13 @@ for line in fasta:
 header.close()
 ```
 
-### Program 5
+---
+> **Challenge #5**
+>Read a file in FASTA format and write to a new file only the sequence (without the header).
+>
+---
 
-
-Read a file in FASTA format and write to a new file
-only the sequence (without the header).
-
-#### Program 5 - solution
+#### Solution to challenge #5
 
 ```
 fasta = open('SingleSeq.fasta')
@@ -205,14 +213,14 @@ for line in fasta:
 seq.close()
 ```
 
-### Merge programs 4 and 5
+---
+> **Challenge: Merge programs 4 and 5**
+> In other words, read a file in FASTA format and write the header to a file and the sequence to a different one.
+>
+---
 
+#### Solution to challenge #4 and #5 mergred
 
-In other words, read a file in FASTA format and write
-the header to a file and the sequence to a different
-one.
-
-#### Programs 4 & 5 merged
 
 ```
 fasta = open('SingleSeq.fasta')
@@ -229,15 +237,19 @@ header.close()
 seq.close()
 ```
 
-### Program 6
-Let’s increase the difficulty just a bit…
 
-+   Read a FASTA file line by line
-+   Save the header in a variable and the sequence
-in a different one
-+   Print header and sequence separately
+---
+> **Challenge #6**
+>Let’s increase the difficulty just a bit…
+>
+>+   Read a FASTA file line by line
+>+   Save the header in a variable and the sequence in a different one
+>+   Print header and sequence separately
+>
+---
 
-#### Program 6 - solution
+
+#### Solution to challenge #6
 
 ```
 seq_fasta = open("SingleSeq.fasta")
@@ -253,16 +265,15 @@ for line in seq_fasta:
 print header, seq
 ```
 
-### Program 7
+---
+> **Challenge #7**
+>+   Implement program 6 by counting the number of cysteine ("C") residues in the sequence
+>+   Print separately header, sequence and the number of cysteine residues
+>
+---
 
 
-
-+   Implement program 6 by counting the number of
-cysteine ("C") residues in the sequence
-+   Print separately header, sequence and the
-number of cysteine residues
-
-#### Program 7 - solution
+#### Solution to challenge #7
 
 ```
 seq_fasta = open("SingleSeq.fasta")
@@ -280,15 +291,16 @@ num_cys = seq.count("C")
 print header, seq, num_cys
 ```
 
-### Program 8
+---
+> **Challenge #8**
+>+ Read a file in FASTA format line-by-line.
+>+   Print or write the record to a file only if the sequence is from Homo sapiens.
+>
+---
 
 
 
-+ Read a file in FASTA format line-by-line.
-+   Print or write the record to a file only if the sequence
-is from Homo sapiens.
-
-#### Program 8 - solution
+#### Solution to challenge #8
 
 ```
 seq_fasta = open("SingleSeq.fasta")
@@ -310,9 +322,12 @@ else:
     print "The record is not from H. sapiens"
 ```
 
-### Program 9
+---
+> **Challenge #9**
+>Very often in reality you will need to analyze several sequences….
+>
+---
 
-Very often in reality you will need to analyze several sequences….
 
 ```
 SwissProt-Human.fasta
@@ -339,12 +354,14 @@ EAGEGN
 ...
 
 ```
+>
+>Download a Uniprot multiple sequence FASTA file. Write the record headers to a new file.
+>
+---
 
 
-Download a Uniprot multiple sequence FASTA file. Write the record headers to a new file.
 
-#### Program 9 - solution
-
+#### Solution to challenge #9
 ```
 fasta = open('SwissProt-Human.fasta')
 headers = open('headers.txt', 'w')
@@ -360,12 +377,14 @@ headers.close()
 >sp|Q04917|1433F_HUMAN 14-3-3 protein eta OS=Homo sapiens GN=YWHAH
 ```
 
-### Program 10
+---
+> **Challenge #10**
+>Read a multiple sequence FASTA file and write the sequences to a new file separated by a blank line
+>
+---
 
 
-Read a multiple sequence FASTA file and write the sequences to a new file separated by a blank line
-
-#### Program 10 - solution
+#### Solution to challenge #10
 
 ```
 fasta = open('SwissProt-Human.fasta.fasta')
@@ -383,14 +402,14 @@ seqs.close()
 seqs.write(line.strip() + '\n')
 ```
 
-### Program 11
+---
+> **Challenge #11**
+>Read a file in FASTA format and copy to a new file the records' AC.
+>
+---
 
 
-
-Read a file in FASTA format and copy to a new file the
-records' AC.
-
-#### Program 11 - solution
+#### Solution to challenge #11
 
 ```
 human_fasta = open('SwissProt-Human.fasta')
@@ -404,15 +423,16 @@ for line in human_fasta:
 Outfile.close()
 ```
 
-### Program 12
+---
+> **Challenge #12**
+>+   Read FASTA records from a file
+>+   Count (and print) the cysteine residues in each sequence.
+>
+---
 
 
-+   Read FASTA records from a file
-+   Count (and print) the cysteine residues in each
-sequence.
 
-#### Program 12 – solution I
-
+#### Solution I  to challenge #12
 ```
 fasta = open('sprot_prot.fasta')
 
@@ -433,7 +453,7 @@ cys_num = seq.count('C')
 print header, ': ', cys_num
 ```
 
-#### Program 11 – solution II
+#### Solution II to challenge #12
 
 ```
 fasta = open('sprot_prot.fasta')
@@ -451,13 +471,12 @@ for line in fasta:
         seq = seq + line.strip()
 ```
 
-### Program 12
+---
+> **Challenge #13**
+>Read a multiple sequence FASTA file and write to a new file only the records from Homo sapiens.
+>
 
-
-Read a multiple sequence FASTA file and write to a
-new file only the records from Homo sapiens.
-
-#### Program 12 – solution I
+#### Solution I to challenge #13
 
 ```
 fasta = open('sprot_prot.fasta')
@@ -475,7 +494,7 @@ if "Homo sapiens" in header:
 
 output.close()
 ```
-#### Program 12 – solution II
+#### Solution II to challenge #13
 
 ```
 fasta = open('sprot_prot.fasta')
@@ -494,25 +513,21 @@ else:
 seq = seq + line
 output.close()
 ```
-### Program 13 - homework
-
-+  Read a multiple sequence file in FASTA format and only write to a new file the records the sequences of which start with a methionine ('M') and have at least two tryptophan residues ('W')
-
-First:
-
-
-+   Read a multiple sequence file in FASTA format and write to a new file
-only the records of the sequences starting with a methionine ('M')
-
-
-Then
-
-+    Read a multiple sequence file in FASTA format and write to a new file
-only the records of the sequences having at least two tryptophan
-residues ('W')
-
-Finally merge the two steps
-
+---
+> **Challenge #14 homework**
+>+  Read a multiple sequence file in FASTA format and only write to a new file the records the sequences of which start with a methionine ('M') and have at least two tryptophan residues ('W')
+>
+>First:
+>
+>+   Read a multiple sequence file in FASTA format and write to a new file only the records of the sequences starting with a methionine ('M')
+>
+>Then
+>
+>+    Read a multiple sequence file in FASTA format and write to a new file only the records of the sequences having at least two tryptophan residues ('W')
+>
+>Finally merge the two steps
+>
+---
 
 ```
 fasta = open('SwissProtHuman.fasta','r')
@@ -521,20 +536,21 @@ outfile = open('SwissProtHuman-Filtered.fasta','w')
 seq = ''
 
 for line in fasta:
-if line[0:1] == '>' and seq == '':
-header = line
-elif line [0:1] != '>':
-seq = seq + line
-elif line[0:1] == '>' and seq != '':
-TRP_num = seq.count('W')
-if seq[0] == 'M' and TRP_num > 1:
+  if line[0:1] == '>' and seq == '':
+    header = line
+  elif line [0:1] != '>':
+    seq = seq + line
+  elif line[0:1] == '>' and seq != '':
+    TRP_num = seq.count('W')
+  if seq[0] == 'M' and TRP_num > 1:
+
 outfile.write(header + seq)
 seq = ''
 header = line
 
 TRP_num = seq.count('W')
 if seq[0] == 'M' and TRP_num > 1:
-outfile.write(header + seq)
+  outfile.write(header + seq)
 outfile.close()
 ```
 
