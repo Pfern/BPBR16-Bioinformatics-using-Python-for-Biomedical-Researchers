@@ -13,9 +13,11 @@ Dates: July 11th-15th 2016<br/>
     <td><img src="./img/elixir_ptg_logo.png" alt="yay" height="100" width="170"></td>
   <tr/>
   <tr>
-  <td><img src="./img/GTBP2015logo.png" alt="yay" height="200" width="300"><td/>
+  <td><img src="./img/GTBP2015logo.png" alt="yay" height="200" width="300"></td>
   <tr/>
 </table>
+
+
 
 
 Python is an object-oriented programming language that is ideal for biological data analysis. The course will start from zero knowledge, and will introduce the participants to all the basic concepts of Python such as calculating, organizing data, reading and writing files, program logic and writing larger programs. All the examples and practical sessions will focus on solving biological problems. In particular the sessions will cover:
