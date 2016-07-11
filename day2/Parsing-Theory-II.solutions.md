@@ -75,10 +75,10 @@ The elements of a list can be any kind of object:
 ```
 L = [1, [2,3], 4.52, 'DNA']
 
-L = []  # the empty list
+L = []             # the empty list
 
 ```
-<img src="../img/parsingimgCHANGE_cccp.png" alt="slot" style="width: 300px;"/>
+<img src="../img/parsingimgCHANGE.png" alt="slot" style="width: 300px;"/>
 
 
 ```

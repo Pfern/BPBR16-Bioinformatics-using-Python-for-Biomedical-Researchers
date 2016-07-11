@@ -141,6 +141,9 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 >+   Use variables for the parameters
 >+   Print the distance to the screen
 >
+>The  formula for  calculating the distance is:
+> <img src="../../img/cartesiandistance.png" alt="slot" style="width: 100px;"/>
+>
 ---
 
 
