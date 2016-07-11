@@ -230,6 +230,7 @@ store them into a variable
 >-  Read 10 SwissProt ACs from a file
 >-   Store them into a list
 >-   Print the list
+>
 ---
 
 <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-1">solution to Challenge #1<a/>
@@ -239,8 +240,9 @@ store them into a variable
 ---
 >
 >-  Create a list containing Uniprot ACs extracted
-from a FASTA file.
->-   Print the list.
+from a FASTA file
+>-   Print the list
+>
 ---
 
 <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-2">solution to Challenge #1<a/>
@@ -252,6 +254,7 @@ from a FASTA file.
 ---
 >-   Read the human FASTA file one record after the other. Check if the record header contains one of the 10 ACs.
 >-   If YES, copy the header to a new file.
+>
 ----
 
 <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-3">solution to Challenge #1<a/>
@@ -289,6 +292,7 @@ EAGEGN
 ---
 >Read a multiple sequence file in FASTA format and write to a new file only the records the Uniprot ACs of which are
 present in the list created in Program 1
+>
 >
 ---
 
