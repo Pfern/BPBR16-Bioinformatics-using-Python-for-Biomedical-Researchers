@@ -8,7 +8,7 @@ for line in seq:
     print line
 ```
 
-
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.md#challenge-1">back</a>
 
 
 #### Solution to challenge #2
@@ -22,6 +22,7 @@ for line in seq:
 
 seq_2.close()
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.md#challenge-2">back</a>
 
 
 
@@ -66,6 +67,7 @@ for line in seq:
     if line[0] != '>':
         print line
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.md#challenge-3">back</a>
 
 
 
@@ -81,6 +83,7 @@ for line in fasta:
 
 header.close()
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.md#challenge-4">back</a>
 
 
 
@@ -96,6 +99,7 @@ for line in fasta:
 
 seq.close()
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.md#challenge-5">back</a>
 
 
 
@@ -116,6 +120,7 @@ for line in fasta:
 header.close()
 seq.close()
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.md#challenge-6">back</a>
 
 
 
@@ -134,6 +139,7 @@ for line in seq_fasta:
 
 print header, seq
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.md#challenge-1">back</a>
 
 
 
