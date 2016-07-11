@@ -112,7 +112,7 @@ Slashes separate parts of the directory path:
 
 
 
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/Unix/Unix-Theory-BPBR16.solutions.md#solution-to-challenge-2">Solution to challenge #1</a>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/Unix/Unix-Theory-BPBR16.solutions.md#solution-to-challenge-2">Solution to challenge #2</a>
 
 ##  Linux commands
 Before talking about Linux commands, we need to answer a question:
@@ -223,7 +223,7 @@ XXX
 *Is my script executable?*
 Each file (and directory) has associated access rights, which may
 be found by typing `ls -l`
-![permission](../../t34.png)
+![permission](../../img/t34.png)
 
 > Access rights on directories
 >- r allows users to list files in the directory
@@ -255,7 +255,7 @@ Changing access rights: chmod
 
 ![first](../../img/first.png)
 
->**&#!/bin/bash** <br/>
+#### **&#!/bin/bash** <br/>
 > "Aha, you want to use the program located at /bin/bash to interpret all the instructions that follow"
 (Bradnam&Korf - Unix and Perl to the Rescue)
 
