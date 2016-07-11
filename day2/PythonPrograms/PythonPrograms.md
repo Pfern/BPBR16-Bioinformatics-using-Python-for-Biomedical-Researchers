@@ -20,7 +20,7 @@ It is a text file that contains Python commands or, in other words, lines of cod
 > ####  **Challenge #1**
 ---
 >•  Open a text file, write: <br>
->`print "This is the output of my first program"``
+>print `"This is the output of my first program"`
 >•  save the file with the name my_print.py and exit
 >•  Open a terminal, go to the directory where you saved `my_print.py` and type at the cursor:
 > `python my_print.py`
@@ -51,6 +51,9 @@ Type a number: 3
 >Write a program that reads something from the keyboard and print it to the screen.
 >
 ---
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.solutions.md#solution-to-challenge-2">solution to challenge #2<a/>
+
 
 
 ## Input from a text file
@@ -121,7 +124,10 @@ outfile.close()
 >-  Count how often each base occurs.
 >-  Write all four numbers to the screen.
 >Test it with a DNA sequence for which you know the result, for instance “AAAACCCGGT”. This approach makes it much easier to discover small program errors.
+>
+----
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.solutions.md#solution-to-challenge-4">solution to challenge #4<a/>
 
 
 <img src="../../img/pp7.png" alt="slot" style="width: 100px;"/>
@@ -170,7 +176,11 @@ Why or why not?
 > ####  **Challenge #5**
 ---
 >Retrieve the 1132-residue sequence of human telomerase reverse transcriptase isoform 1 from the NCBI protein database. Choose the FASTA format. Copy the sequence to a text file (`telomerase.txt`). Write a program that reads the telomerase.txt file and prints first the whole sequence and then the sequence residue by residue.
+>
+----
 
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.solutions.md#solution-to-challenge-5">solution to challenge #5<a/>
 
 
 ## You can use a `for` loop to read a file line by line
@@ -197,6 +207,9 @@ for line in src_human:
 >
 ---
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.solutions.md#solution-to-challenge-6">solution to challenge #6<a/>
+
+
 <img src="../../img/pp8.png" alt="slot" style="width: 100px;"/>
 
 
@@ -206,6 +219,8 @@ for line in src_human:
 >
 ---
 
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.solutions.md#solution-to-challenge-7">solution to challenge #7<a/>
 
 
 ## Recap
