@@ -31,7 +31,9 @@ Python is an object-oriented programming language that is ideal for biological d
 
 The course will be highly interactive and the students will continuously put theory into practice while learning. By the end of the course, the participants will have a good understanding of Python basics and will have acquired the skills to manage any type of bioinformatics database record and to run applications from scripts. Basic Unix/Linux skills will be provided at the beginning of the course.
 
-This repository is for the course materials and it is organized as follows:
+
+
+#### This repository is for the course materials and it is organized as follows:
 
 Days |Lessons \& Tutorials |
 ------------ | -------------|
