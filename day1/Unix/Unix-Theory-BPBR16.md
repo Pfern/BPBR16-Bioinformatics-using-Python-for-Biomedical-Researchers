@@ -206,7 +206,7 @@ XXX
 
 - Create a text file `my_first_shell_script.sh`
 
-![firstshell](../../first.png)
+![firstshell](../../img/first.png)
 
 - Write the commands in a file, save and exit
 
