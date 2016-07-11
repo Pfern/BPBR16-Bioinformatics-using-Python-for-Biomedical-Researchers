@@ -442,7 +442,9 @@ Outfile.close()
 
 
 
-#### Solution I  to challenge #12
+#### Solution to challenge #12
+
+One possible solution:
 ```
 fasta = open('sprot_prot.fasta')
 
@@ -463,7 +465,7 @@ cys_num = seq.count('C')
 print header, ': ', cys_num
 ```
 
-#### Solution II to challenge #12
+another possible solution:
 
 ```
 fasta = open('sprot_prot.fasta')
@@ -486,6 +488,8 @@ for line in fasta:
 >
 >Read a multiple sequence FASTA file and write to a new file only the records from Homo sapiens.
 >
+---
+
 
 #### Solution I to challenge #13
 
@@ -541,6 +545,8 @@ output.close()
 >
 ---
 
+
+#### Solution II to challenge #14
 ```
 fasta = open('SwissProtHuman.fasta','r')
 outfile = open('SwissProtHuman-Filtered.fasta','w')
@@ -566,13 +572,11 @@ if seq[0] == 'M' and TRP_num > 1:
 outfile.close()
 ```
 
-### Program 14 - homework
-
-
-Read a Genbank record and write to a file the nucleotide sequence in FASTA format. Extract and write to a file the gene sequence from the Candida albicans genomic DNA, chromosome 7, complete sequence (file ap006852.gbk)
-
-
-Try to write it in FASTA format:
+---
+> **Challenge #15 homework**
+>Read a Genbank record and write to a file the nucleotide sequence in FASTA format. Extract and write to a file the gene sequence from the Candida albicans genomic DNA, chromosome 7, complete sequence (file ap006852.gbk)
+>
+> Try to write it in FASTA format:
 ```
 >AP006852
 ccactgtccaatggctcaacacgccaatcatcatacaatacccccaacaggaatcaccaa
@@ -583,8 +587,10 @@ Gtaccgttgtagctctctcgtaaacacaagaaccaacaccaaacaacatactacaactga
 ...
 ...
 ```
+>
+---
 
-#### Program 14 - solution
+#### Solution II to challenge #15
 
 ```
 InputFile = open("ap006852.gbk")
@@ -592,17 +598,17 @@ OutputFile = open("ap006852.fasta","w")
 flag = 0
 
 for line in InputFile:
-if line[0:9] == 'ACCESSION':
-AC = line.split()[1].strip()
-OutputFile.write('>'+AC+'\n')
-if line[0:6] == 'ORIGIN':
-flag = 1
-continue
-if flag == 1:
-fields = line.split()
-if fields != []:
-seq = ''.join(fields[1:])
-OutputFile.write(seq +'\n')
+  if line[0:9] == 'ACCESSION':
+    AC = line.split()[1].strip()
+    OutputFile.write('>'+AC+'\n')
+  if line[0:6] == 'ORIGIN':
+    flag = 1
+    continue
+  if flag == 1:
+    fields = line.split()
+  if fields != []:
+    seq = ''.join(fields[1:])
+    OutputFile.write(seq +'\n')
 
 InputFile.close()
 OutputFile.close()
