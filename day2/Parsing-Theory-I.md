@@ -31,6 +31,7 @@ AGEGEN
 >
 ---
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.solutions.md#solution-to-challenge-1">solution to challenge #1</a>
 
 ---
 > **Challenge #2**
@@ -38,6 +39,8 @@ AGEGEN
 >Open the file `SingleSeq.fasta`, read its content line by line and write it to another file.
 >
 ---
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.solutions.md#solution-to-challenge-2">solution to challenge #2</a>
 
 
 
@@ -115,6 +118,9 @@ AGEGEN
 ---
 
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.solutions.md#solution-to-challenge-3">solution to challenge #3</a>
+
+
 ---
 > **Challenge #4**
 >
@@ -122,6 +128,9 @@ AGEGEN
 only the header of the record.
 >
 ---
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.solutions.md#solution-to-challenge-4">solution to challenge #4</a>
+
 
 
 ---
@@ -131,6 +140,9 @@ only the header of the record.
 >
 ---
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.solutions.md#solution-to-challenge-5">solution to challenge #5</a>
+
+
 
 ---
 > **Challenge: Merge programs 4 and 5**
@@ -139,7 +151,7 @@ only the header of the record.
 >
 ---
 
-
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.solutions.md#solution-to-challenge-4-and-5-mergred"> solution to challenges #4 and #5 merged</a>
 
 ---
 > **Challenge #6**
@@ -152,6 +164,9 @@ only the header of the record.
 >
 ---
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.solutions.md#solution-to-challenge-6">solution to challenge #6</a>
+
+
 
 
 ---
@@ -163,6 +178,9 @@ only the header of the record.
 ---
 
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.solutions.md#solution-to-challenge-7">solution to challenge #7</a>
+
+
 ---
 > **Challenge #8**
 >
@@ -170,6 +188,9 @@ only the header of the record.
 >+   Print or write the record to a file only if the sequence is from Homo sapiens.
 >
 ---
+
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.solutions.md#solution-to-challenge-8">solution to challenge #8</a>
 
 
 ---
@@ -209,6 +230,9 @@ EAGEGN
 ---
 
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.solutions.md#solution-to-challenge-9">solution to challenge #9</a>
+
+
 ---
 > **Challenge #10**
 >
@@ -217,12 +241,18 @@ EAGEGN
 ---
 
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.solutions.md#solution-to-challenge-10">solution to challenge #10</a>
+
+
 ---
 > **Challenge #11**
 >
 >Read a file in FASTA format and copy to a new file the records' AC.
 >
 ---
+
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.solutions.md#solution-to-challenge-11">solution to challenge #11</a>
 
 
 ---
@@ -234,12 +264,18 @@ EAGEGN
 ---
 
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.solutions.md#solution-to-challenge-12">solution to challenge #12</a>
+
+
 ---
 > **Challenge #13**
 >
 >Read a multiple sequence FASTA file and write to a new file only the records from Homo sapiens.
 >
 ---
+
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.solutions.md#solution-to-challenge-13">solution to challenge #13</a>
 
 
 ---
@@ -261,6 +297,9 @@ EAGEGN
 
 
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.solutions.md#solution-to-challenge-14">solution to challenge #14</a>
+
+
 ---
 > **Challenge #15 homework**
 >Read a Genbank record and write to a file the nucleotide sequence in FASTA format. Extract and write to a file the gene sequence from the Candida albicans genomic DNA, chromosome 7, complete sequence (file ap006852.gbk)
@@ -279,7 +318,9 @@ Gtaccgttgtagctctctcgtaaacacaagaaccaacaccaaacaacatactacaactga
 >
 ---
 
-```
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.solutions.md#solution-to-challenge-15">solution to challenge #15</a>
+
 
 
 ## Parsing data records
