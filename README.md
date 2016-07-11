@@ -8,9 +8,9 @@ Dates: July 11th-15th 2016<br/>
 
  <table style="width:100%">
   <tr>
-    <td> <img src="./img/igclogo.png" alt="yay" height="200" width="400"></td>
-    <td><img src="./img/elixir_ita_logo.png" alt="yay" height="200" width="300"></td>
-    <td><img src="./img/elixir_ptg_logo.png" alt="yay" height="200" width="300"></td>
+    <td> <img src="./img/igclogo.png" alt="yay" height="100" width="200"></td>
+    <td><img src="./img/elixir_ita_logo.png" alt="yay" height="100" width="150"></td>
+    <td><img src="./img/elixir_ptg_logo.png" alt="yay" height="100" width="170"></td>
   <tr/>
 </table>
 
