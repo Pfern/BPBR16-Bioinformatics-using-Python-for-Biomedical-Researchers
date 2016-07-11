@@ -233,7 +233,7 @@ store them into a variable
 >
 ---
 
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-1">solution to Challenge #1<a/>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-1">solution to Challenge #1<a/>
 
 
 > ####  **Challenge #2**
@@ -245,7 +245,7 @@ from a FASTA file
 >
 ---
 
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-2">solution to Challenge #1<a/>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-2">solution to Challenge #1<a/>
 
 
 
@@ -257,7 +257,7 @@ from a FASTA file
 >
 ----
 
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-3">solution to Challenge #1<a/>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-3">solution to Challenge #1<a/>
 
 
 
@@ -296,7 +296,7 @@ present in the list created in Program 1
 >
 ---
 
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-4">solution to Challenge #1<a/>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-4">solution to Challenge #1<a/>
 
 
 ## Putting together conditions and loops `while` loops
