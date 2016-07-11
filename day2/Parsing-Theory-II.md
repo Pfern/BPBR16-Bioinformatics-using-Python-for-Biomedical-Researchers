@@ -232,6 +232,8 @@ store them into a variable
 >-   Print the list
 ---
 
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-1">solution to Challenge #1<a/>
+
 
 > ####  **Challenge #2**
 ---
@@ -241,6 +243,9 @@ from a FASTA file.
 >-   Print the list.
 ---
 
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-2">solution to Challenge #1<a/>
+
+
 
 
 > ####  **Challenge #3**
@@ -248,6 +253,8 @@ from a FASTA file.
 >-   Read the human FASTA file one record after the other. Check if the record header contains one of the 10 ACs.
 >-   If YES, copy the header to a new file.
 ----
+
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-3">solution to Challenge #1<a/>
 
 
 
@@ -284,6 +291,8 @@ EAGEGN
 present in the list created in Program 1
 >
 ---
+
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-4">solution to Challenge #1<a/>
 
 
 ## Putting together conditions and loops `while` loops

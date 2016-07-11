@@ -11,7 +11,7 @@ AC = line.strip()
 cancer_list.append(AC)
 print cancer_list
 ```
-
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.md#challenge-1">back<a/>
 
 
 #### Solution to challenge #2
@@ -25,6 +25,7 @@ fields = line.split('|')
 AC_list.append(fields[1])
 print AC_list
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.md#challenge-2">back<a/>
 
 
 #### Solution to challenge #3
@@ -52,6 +53,7 @@ Outfile.close()
 
 *We are not writing the whole record but the header line only*
 
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.md#challenge-3">back<a/>
 
 
 #### Solution to challenge #4
@@ -106,3 +108,6 @@ if AC in cancer_list:
 Outfile.write(line)
 Outfile.close()
 ```
+
+
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.md#challenge-4">back<a/>
