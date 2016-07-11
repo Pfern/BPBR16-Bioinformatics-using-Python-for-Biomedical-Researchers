@@ -299,7 +299,7 @@ to get the content
 
 
 Try the following commands:
--    printenv
+-   printenv
 -   echo $SHELL
 -   printenv SHELL
 -   echo $PATH
