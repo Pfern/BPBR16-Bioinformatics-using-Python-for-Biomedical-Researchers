@@ -42,6 +42,7 @@ for line in seq:
 
 ---
 > **Challenge #2**
+>
 >Open the file `SingleSeq.fasta`, read its content line by line and write it to another file.
 >
 ---
@@ -117,6 +118,7 @@ if 'G' in nucl: print 'G'
 
 ---
 > **Challenge #3**
+>
 >Read a sequence in FASTA format and print only the header of the sequence
 >
 >
@@ -175,6 +177,7 @@ for line in seq:
 
 ---
 > **Challenge #4**
+>
 >Read a file in FASTA format and write to a new file
 only the header of the record.
 >
@@ -196,6 +199,7 @@ header.close()
 
 ---
 > **Challenge #5**
+>
 >Read a file in FASTA format and write to a new file only the sequence (without the header).
 >
 ---
@@ -215,6 +219,7 @@ seq.close()
 
 ---
 > **Challenge: Merge programs 4 and 5**
+>
 > In other words, read a file in FASTA format and write the header to a file and the sequence to a different one.
 >
 ---
@@ -240,6 +245,7 @@ seq.close()
 
 ---
 > **Challenge #6**
+>
 >Let’s increase the difficulty just a bit…
 >
 >+   Read a FASTA file line by line
@@ -267,6 +273,7 @@ print header, seq
 
 ---
 > **Challenge #7**
+>
 >+   Implement program 6 by counting the number of cysteine ("C") residues in the sequence
 >+   Print separately header, sequence and the number of cysteine residues
 >
@@ -293,6 +300,7 @@ print header, seq, num_cys
 
 ---
 > **Challenge #8**
+>
 >+ Read a file in FASTA format line-by-line.
 >+   Print or write the record to a file only if the sequence is from Homo sapiens.
 >
@@ -324,10 +332,9 @@ else:
 
 ---
 > **Challenge #9**
+>
 >Very often in reality you will need to analyze several sequences….
 >
----
-
 
 ```
 SwissProt-Human.fasta
@@ -379,6 +386,7 @@ headers.close()
 
 ---
 > **Challenge #10**
+>
 >Read a multiple sequence FASTA file and write the sequences to a new file separated by a blank line
 >
 ---
@@ -404,6 +412,7 @@ seqs.write(line.strip() + '\n')
 
 ---
 > **Challenge #11**
+>
 >Read a file in FASTA format and copy to a new file the records' AC.
 >
 ---
@@ -425,6 +434,7 @@ Outfile.close()
 
 ---
 > **Challenge #12**
+>
 >+   Read FASTA records from a file
 >+   Count (and print) the cysteine residues in each sequence.
 >
@@ -473,6 +483,7 @@ for line in fasta:
 
 ---
 > **Challenge #13**
+>
 >Read a multiple sequence FASTA file and write to a new file only the records from Homo sapiens.
 >
 
@@ -515,6 +526,7 @@ output.close()
 ```
 ---
 > **Challenge #14 homework**
+>
 >+  Read a multiple sequence file in FASTA format and only write to a new file the records the sequences of which start with a methionine ('M') and have at least two tryptophan residues ('W')
 >
 >First:
