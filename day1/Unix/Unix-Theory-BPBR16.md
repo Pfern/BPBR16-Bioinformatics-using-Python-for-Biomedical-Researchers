@@ -92,6 +92,10 @@ The file-system is arranged in a hierarchical structure, like an inverted tree
 >
 ---
 
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/Unix/Unix-Theory-BPBR16.solutions.md#solution-to-challenge-1">Solution to challenge #1</a>
+
+
 ## What is the **path** of a file or a directory?
 
 Slashes separate parts of the directory path:
@@ -107,6 +111,8 @@ Slashes separate parts of the directory path:
 ---
 
 
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/Unix/Unix-Theory-BPBR16.solutions.md#solution-to-challenge-2">Solution to challenge #1</a>
 
 ##  Linux commands
 Before talking about Linux commands, we need to answer a question:
@@ -330,8 +336,8 @@ For shells in the csh family:
 >Use a text editor to write commands into a file, save, exit, make it executable and run it
 ---
 
-#### Solution to challenge #3
-![ch3sol](../../img/chall3sol.png)
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/Unix/Unix-Theory-BPBR16.solutions.md#solution-to-challenge-3">Solution to challenge #1</a>
 
 
 ##  Connecting to a remote computer
@@ -418,17 +424,3 @@ $ ls ~/oeiras
 
 
 
-The directories ‘.’, ‘..’, and ‘~’
-
-% ls -a [Enter]
-% cd . [Enter]
-% cd .. [Enter]
-% ls ~/oeiras
-Handling files and directories
-
-
-
-
-
-more            less           clear
-Redirection
