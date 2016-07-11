@@ -145,7 +145,7 @@ Before talking about Linux commands, we need to answer a question:
 - executes the program `rm` on `myfile.txt`
 - After the process `rm myfile.txt` has finished running, the shell returns the prompt `%` to you, indicating that it is waiting for further commands.
 
-![example](../../img/examplecommand_crop.png)
+![example](../../img/examplecommand_cccp.png)
 
 
 ```
