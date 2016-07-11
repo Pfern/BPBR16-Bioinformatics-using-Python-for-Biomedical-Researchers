@@ -123,6 +123,9 @@ make it fast.
 ---
 
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/Pythonshell/pythonshell.solutions.md#solution-to-challenge-2">Solution to challenge #2</a>
+
+
 ---
 > **Challenge #3**
 >Calculate the distance between two points in the 3D space
@@ -138,6 +141,9 @@ make it fast.
 >
 ---
 
+
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/Pythonshell/pythonshell.solutions.md#solution-to-challenge-3">Solution to challenge #3</a>
 
 ---
 > **Challenge #4**
@@ -198,6 +204,9 @@ ATOM     16  O   VAL A   3      -6.395  14.820   5.357  1.00 19.23           O
 >+  Print the results to the screen.
 >
 ---
+
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/Pythonshell/pythonshell.solutions.md#solution-to-challenge-5">Solution to challenge #5</a>
 
 
 
