@@ -6,8 +6,7 @@
 
 
 
-In many cases you will need to compare
-data from different files
+In many cases you will need to compare data from different files
 ```
 SwissProt-Human.fasta
 >sp|P31946|1433B_HUMAN 14-3-3 protein beta/alpha OS=Homo sapiens
@@ -33,7 +32,7 @@ EAGEGN
 ...
 ```
 
-Check the file cancer-expressed.txt
+Check the file `cancer-expressed.txt`
 ```
 Q5XXA6
 Q9Y5P2
