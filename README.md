@@ -10,6 +10,7 @@ Dates: July 11th-15th 2016<br/>
   <tr>
     <td> <img src="./img/igclogo.png" alt="yay" height="200" width="400"></td>
     <td><img src="./img/elixir_ita_logo.png" alt="yay" height="200" width="300"></td>
+    <td><img src="./img/elixir_ptg_logo.png" alt="yay" height="200" width="300"></td>
   <tr/>
 </table>
 
