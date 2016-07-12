@@ -9,7 +9,7 @@
 insulin = "GIVEQCCTSICSLYQLENYCFVNQHLC\
       GSHLVEALYLVGERGFFYTPKT"
 
-for amino_acid in "ACDEFGHIKLMNPQRSTVWY"
+for amino_acid in "ACDEFGHIKLMNPQRSTVWY":
   number = insulin.count(amino_acid)
   print amino_acid, number
 ```
