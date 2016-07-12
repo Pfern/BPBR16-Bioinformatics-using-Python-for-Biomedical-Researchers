@@ -1,3 +1,6 @@
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers#this-repository-is-for-the-course-materials-and-it-is-organized-as-follows"> Back to Timetable</a>
+
+
 # Repeating things
 
 <img src="../../img/pp7.png" alt="slot" style="width: 100px;"/>
@@ -106,7 +109,7 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 <img src="../../img/pp8.png" alt="slot" style="width: 100px;"/>
 
 
-> ####  **Challenge #2**
+> ####  **Challenge #3**
 ---
 > Which amino acid is the most frequent in the sequence of the telomerase reverse transcriptase isoform 1?
 >
