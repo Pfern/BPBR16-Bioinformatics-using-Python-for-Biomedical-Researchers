@@ -99,10 +99,8 @@ The `if/elif/else` construct produces different effects compared with the use of
 
 ```
 nucl = ['A','C','T','G']
-if 'A' in
-if 'C' in
-nucl: print 'A'
-nucl: print 'C'
+if 'A' in nucl: print 'A'
+if 'C' in nucl: print 'C'
 if 'T' in nucl: print 'T'
 if 'G' in nucl: print 'G'
 ```
@@ -113,7 +111,7 @@ if 'G' in nucl: print 'G'
 >
 >
 ```
->sp|P31946|1433B_HUMAN 14-3-3 protein beta/alpha OS=Homo sapiens
+>>sp|P31946|1433B_HUMAN 14-3-3 protein beta/alpha OS=Homo sapiens
 MTMDKSELVQKAKLAEQAERYDDMAAAMKAVTEQGHELSNEERNLLSVAYKNVVGAR
 WRVISSIEQKTERNEKKQQMGKEYREKIEAELQDICNDVLELLDKYLIPNATQPESKVFY
 LKMKGDYFRYLSEVASGDNKQTTVSNSQQAYQEAFEISKKEMQPTHPIRLGLALNFSVF
@@ -203,6 +201,7 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 
 ```
 SwissProt-Human.fasta
+
 >sp|P31946|1433B_HUMAN 14-3-3 protein beta/alpha OS=Homo sapiens
 MTMDKSELVQKAKLAEQAERYDDMAAAMKAVTEQGHELSNEERNLLSVAYKNVVGARRSS
 WRVISSIEQKTERNEKKQQMGKEYREKIEAELQDICNDVLELLDKYLIPNATQPESKVFY
