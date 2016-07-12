@@ -99,10 +99,8 @@ The `if/elif/else` construct produces different effects compared with the use of
 
 ```
 nucl = ['A','C','T','G']
-if 'A' in 
-if 'C' in
-nucl: print 'A'
-nucl: print 'C'
+if 'A' in nucl: print 'A'
+if 'C' in nucl: print 'C'
 if 'T' in nucl: print 'T'
 if 'G' in nucl: print 'G'
 ```
