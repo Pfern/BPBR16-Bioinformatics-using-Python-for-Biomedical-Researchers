@@ -19,11 +19,14 @@ It is a text file that contains Python commands or, in other words, lines of cod
 
 > ####  **Challenge #1**
 ---
->•  Open a text file, write: <br>
->print `"This is the output of my first program"`
->•  save the file with the name my_print.py and exit
->•  Open a terminal, go to the directory where you saved `my_print.py` and type at the cursor:
-> `python my_print.py`
+>-  Open a text file, write: <br>
+>- print `"This is the output of my first program"`
+>- save the file with the name my_print.py and exit
+>-  Open a terminal, go to the directory where you saved `my_print.py` and type at the cursor: `python my_print.py`
+>
+---
+<br>
+<br>
 
 >Challenge
 ---
@@ -62,7 +65,7 @@ Type a number: 3
 >
 ---
 
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.solutions.md#solution-to-challenge-2">solution to challenge #2<a/>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/1-PythonPrograms/PythonPrograms.solutions.md#solution-to-challenge-2">solution to challenge #2<a/>
 
 
 
@@ -93,12 +96,13 @@ VEALYLVCGERGFFYTPKT"
 from insulin import insulin
 print insulin
 ```
+<br>
 > ####  **Challenge #3**
 ---
 >Write a program that reads a sequence from a file and print it to the screen. Run it.
 >
 ---
-
+<br>
 ## Output
 
 <img src="../../img/pp5.png" alt="slot" style="width: 100px;"/>
@@ -121,6 +125,8 @@ outfile.write(insulin)
 outfile.close()
 ```
 
+<br>
+<br>
 >Challenge
 ---
 >Your first Python commands: create pairs
@@ -128,7 +134,8 @@ outfile.close()
 >
 ----
 
-
+<br>
+<br>
 
 > ####  **Challenge #4**
 ---
@@ -142,7 +149,7 @@ outfile.close()
 >
 ----
 
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.solutions.md#solution-to-challenge-4">solution to challenge #4<a/>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/1-PythonPrograms/PythonPrograms.solutions.md#solution-to-challenge-4">solution to challenge #4<a/>
 
 
 
