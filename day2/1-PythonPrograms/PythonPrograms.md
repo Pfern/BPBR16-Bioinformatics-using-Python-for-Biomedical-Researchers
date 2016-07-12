@@ -25,9 +25,19 @@ It is a text file that contains Python commands or, in other words, lines of cod
 >•  Open a terminal, go to the directory where you saved `my_print.py` and type at the cursor:
 > `python my_print.py`
 
+>Challenge
+---
+> Your first Python commands: create pairs
 <img src="../../img/pp2.png" alt="slot" style="width: 100px;"/>
+>
+---
+
+
+## How programs work
 
 <img src="../../img/pp3.png" alt="slot" style="width: 100px;"/>
+
+
 ## Input
 <img src="../../img/pp4.png" alt="slot" style="width: 100px;"/>
 
@@ -110,8 +120,13 @@ outfile = open("my_output.txt", "w")
 outfile.write(insulin)
 outfile.close()
 ```
-<img src="../../img/pp6.png" alt="slot" style="width: 100px;"/>
 
+>Challenge
+---
+>Your first Python commands: create pairs
+<img src="../../img/pp6.png" alt="slot" style="width: 100px;"/>
+>
+----
 
 
 
@@ -131,101 +146,7 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 
 
 
-
-## Counting amino acids
-<img src="../../img/pp7.png" alt="slot" style="width: 100px;"/>
-
-```
-# insulin [Homo sapiens] GI:386828
-insulin = "GIVEQCCTSICSLYQLENYCFVNQHLC\
-      GSHLVEALYLVGERGFFYTPKT"
-
-for amino_acid in "ACDEFGHIKLMNPQRSTVWY"
-  number = insulin.count(amino_acid)
-  print amino_acid, number
-```
-
-##Loops with for
-The `for` command repeats other commands:
-```
-dna = "AGCTTCGA”
-
-for base in "ACTG":
-  print dna.count(base)
-```
-
-The commands that are repeated must be **indented (shifted right by four spaces)**.
-
-
-## Compare
-```
-dna = "AGCTTCGA”
-for base in "ACTG":
-  print dna.count(base)
-```
-Would you prefer this implementation?
-```
-dna = "AGCTTCGA"
-
-print dna.count("A")
-print dna.count("C")
-print dna.count("T")
-print dna.count("G")
-```
-Why or why not?
-
-> ####  **Challenge #5**
----
->Retrieve the 1132-residue sequence of human telomerase reverse transcriptase isoform 1 from the NCBI protein database. Choose the FASTA format. Copy the sequence to a text file (`telomerase.txt`). Write a program that reads the telomerase.txt file and prints first the whole sequence and then the sequence residue by residue.
->
-----
-
-
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.solutions.md#solution-to-challenge-5">solution to challenge #5<a/>
-
-
-## You can use a `for` loop to read a file line by line
-```
-Input_file = open(“my_file.txt”)
-for line in Input_file:
-  print line
-```
-
-## Look how beautiful it can be…
-```
-import urllib
-url = 'http://www.uniprot.org/\
-  uniprot/P12931.fasta'
-src_human = urllib.urlopen(url)
-for line in src_human:
-  print line,
-```
-
-
-> ####  **Challenge #6**
----
-> Write a file and program that reads the `telomerase.txt` prints its content line by line.
->
----
-
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.solutions.md#solution-to-challenge-6">solution to challenge #6<a/>
-
-
-<img src="../../img/pp8.png" alt="slot" style="width: 100px;"/>
-
-
-> ####  **Challenge #7**
----
-> Which amino acid is the most frequent in the sequence of the telomerase reverse transcriptase isoform 1?
->
----
-
-
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.solutions.md#solution-to-challenge-7">solution to challenge #7<a/>
-
-
-## Recap
-### Recap I
+### Recap
 -  string variables contain text
 -  `print` writes to the screen
 -  you can use functions to do things
@@ -233,6 +154,3 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 -  `write()` writes to an open file
 -  for loops repeat commands
 -  comments starts with `#` or `'''`
-
-### Recap II
-<img src="../../img/pp9.png" alt="slot" style="width: 100px;"/>

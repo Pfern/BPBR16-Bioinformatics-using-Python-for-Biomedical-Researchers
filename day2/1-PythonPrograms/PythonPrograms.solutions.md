@@ -9,6 +9,7 @@ print a
 
 
 #### Solution to challenge #4
+One possible solution
 ```
 dna = "AGCTTCGA"
 
@@ -17,42 +18,16 @@ print dna.count("C")
 print dna.count("T")
 print dna.count("G")
 ```
+another possible solution:
+```
+dna = "AGCTTCGA"
+elem =  dna.count ("A")
+print  elem
+elem =  dna.count ("C")
+print  elem
+elem =  dna.count ("T")
+print  elem
+elem =  dna.count ("G")
+print  elem
+```
 <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.md#challenge-4>back<a/>
-
-
-#### Solution to challenge #5
-```
-telomerase = open("telomerase.txt")
-
-seq = telomerase.read()
-
-print seq
-
-for aa in seq:
-  print aa
-```
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.md#challenge-5>back<a/>
-
-
-#### Solution to challenge #6
-```
-telomerase = open("telomerase.txt")
-
-for line in telomerase:
-  print line
-```
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.md#challenge-6>back<a/>
-
-
-#### Solution to challenge #7
-```
-telomerase = open("telomerase.txt")
-
-seq = telomerase.read()
-
-for aa in "ACDEFGHKILMNPQRSTVYW":
-  aa_count = seq.count(aa)
-  aa_freq = aa_count/float(len(seq))
-  print aa, round(aa_freq, 3)
-```
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.md#challenge-7>back<a/>
