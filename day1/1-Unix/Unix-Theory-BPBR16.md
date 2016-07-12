@@ -1,4 +1,4 @@
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers#this-repository-is-for-the-course-materials-and-it-is-organized-as-follows"> Back to Timetable</a> 
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers#this-repository-is-for-the-course-materials-and-it-is-organized-as-follows"> Back to Timetable</a>
 
 
 
@@ -86,8 +86,9 @@ The file-system is arranged in a hierarchical structure, like an inverted tree
 
 
 ## How can you navigate the filesystem?
----
 > **Challenge #1**
+---
+>
 >What do you need to navigate the filesystem?<br>
 >Make a list of the actions needed to navigate <br>
 (example: change directory)
@@ -95,7 +96,7 @@ The file-system is arranged in a hierarchical structure, like an inverted tree
 ---
 
 
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/Unix/Unix-Theory-BPBR16.solutions.md#solution-to-challenge-1">Solution to challenge #1</a>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/1-Unix/Unix-Theory-BPBR16.solutions.md#solution-to-challenge-1">Solution to challenge #1</a>
 
 
 ## What is the **path** of a file or a directory?
@@ -103,8 +104,11 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 Slashes separate parts of the directory path:
 `/home/allegra/Documents/Training/materials/Unix/Academis_Linux.pdf`
 
----
+
+
 > **Challenge #2**
+---
+>
 >What do you need to be able to do/manage stuff in the filesystem?
 > (example: Make a new directory)
 > Write  a list of actions
@@ -114,7 +118,7 @@ Slashes separate parts of the directory path:
 
 
 
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/Unix/Unix-Theory-BPBR16.solutions.md#solution-to-challenge-2">Solution to challenge #2</a>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/1-Unix/Unix-Theory-BPBR16.solutions.md#solution-to-challenge-2">Solution to challenge #2</a>
 
 ##  Linux commands
 Before talking about Linux commands, we need to answer a question:
@@ -339,7 +343,7 @@ For shells in the csh family:
 ---
 
 
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/Unix/Unix-Theory-BPBR16.solutions.md#solution-to-challenge-3">Solution to challenge #1</a>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/1-Unix/Unix-Theory-BPBR16.solutions.md#solution-to-challenge-3">Solution to challenge #1</a>
 
 
 ##  Connecting to a remote computer
