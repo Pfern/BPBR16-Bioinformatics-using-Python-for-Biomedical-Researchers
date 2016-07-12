@@ -178,7 +178,7 @@ if header:
 else:
     print "The record is not from H. sapiens"
 ```
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.md#challenge-8">back</a>
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-8">back</a>
 
 
 #### Solution to challenge #9
@@ -196,7 +196,7 @@ headers.close()
 >sp|P62258|1433E_HUMAN 14-3-3 protein epsilon OS=Homo sapiens
 >sp|Q04917|1433F_HUMAN 14-3-3 protein eta OS=Homo sapiens GN=YWHAH
 ```
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.md#challenge-9">back</a>
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-9">back</a>
 
 
 #### Solution to challenge #10
@@ -216,7 +216,7 @@ seqs.close()
 
 seqs.write(line.strip() + '\n')
 ```
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.md#challenge-10">back</a>
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-10">back</a>
 
 
 #### Solution to challenge #11
@@ -232,7 +232,7 @@ for line in human_fasta:
 
 Outfile.close()
 ```
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.md#challenge-11">back</a>
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-11">back</a>
 
 
 
@@ -276,7 +276,7 @@ for line in fasta:
     else:
         seq = seq + line.strip()
 ```
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.md#challenge-12">back</a>
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-12">back</a>
 
 
 
@@ -322,7 +322,7 @@ for line in fasta:
 
 output.close()
 ```
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.md#challenge-13">back</a>
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-13">back</a>
 
 
 
@@ -350,7 +350,7 @@ if seq[0] == 'M' and TRP_num > 1:
   outfile.write(header + seq)
 outfile.close()
 ```
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.md#challenge-14">back</a>
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-14">back</a>
 
 
 #### Solution II to challenge #15
@@ -376,4 +376,4 @@ for line in InputFile:
 InputFile.close()
 OutputFile.close()
 ```
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.md#challenge-15">back</a>
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-15">back</a>
