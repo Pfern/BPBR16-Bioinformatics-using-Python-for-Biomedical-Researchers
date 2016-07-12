@@ -99,7 +99,7 @@ for line in src_human:
 >
 ---
 
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/2-RepeatingThings/RepeatingThings.solutions.md#solution-to-challenge-2">solution to challenge #6<a/>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/2-RepeatingThings/RepeatingThings.solutions.md#solution-to-challenge-2">solution to challenge #2<a/>
 
 
 ## Manipulating string
@@ -113,7 +113,7 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 ---
 
 
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/2-RepeatingThings/RepeatingThings.solutions.md#solution-to-challenge-3">solution to challenge #7<a/>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/2-RepeatingThings/RepeatingThings.solutions.md#solution-to-challenge-3">solution to challenge #3<a/>
 
 
 
