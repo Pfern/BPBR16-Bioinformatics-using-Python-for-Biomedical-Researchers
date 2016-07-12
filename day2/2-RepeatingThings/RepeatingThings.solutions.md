@@ -1,26 +1,4 @@
-#### Solution to challenge #2
-
-```
-a = raw_input("Type something: ")
-print a
-```
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.md#challenge-2>back<a/>
-
-
-
-#### Solution to challenge #4
-```
-dna = "AGCTTCGA"
-
-print dna.count("A")
-print dna.count("C")
-print dna.count("T")
-print dna.count("G")
-```
-<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.md#challenge-4>back<a/>
-
-
-#### Solution to challenge #5
+#### Solution to challenge #1
 ```
 telomerase = open("telomerase.txt")
 
@@ -34,7 +12,7 @@ for aa in seq:
 <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.md#challenge-5>back<a/>
 
 
-#### Solution to challenge #6
+#### Solution to challenge #2
 ```
 telomerase = open("telomerase.txt")
 
@@ -44,7 +22,7 @@ for line in telomerase:
 <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/PythonPrograms/PythonPrograms.md#challenge-6>back<a/>
 
 
-#### Solution to challenge #7
+#### Solution to challenge #3
 ```
 telomerase = open("telomerase.txt")
 

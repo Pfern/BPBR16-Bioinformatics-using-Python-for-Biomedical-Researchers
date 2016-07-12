@@ -25,6 +25,7 @@ It is a text file that contains Python commands or, in other words, lines of cod
 >-  Open a terminal, go to the directory where you saved `my_print.py` and type at the cursor: `python my_print.py`
 >
 ---
+
 <br>
 <br>
 
