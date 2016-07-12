@@ -27,7 +27,7 @@ seq_2.close()
 
 
 #### Solution to challenge #3
-
+A number of possible solutions
 ```
 seq = open("SingleSeq.fasta")
 
@@ -35,12 +35,6 @@ for line in seq:
     if line[0] == '>':
         print line
 
->sp|P31946|1433B_HUMAN 14-3-3 protein beta/alpha OS=Homo sapiens
-MTMDKSELVQKAKLAEQAERYDDMAAAMKAVTEQGHELSNEERNLLSVAYKNVVGARR
-WRVISSIEQKTERNEKKQQMGKEYREKIEAELQDICNDVLELLDKYLIPNATQPESKVFY
-LKMKGDYFRYLSEVASGDNKQTTVSNSQQAYQEAFEISKKEMQPTHPIRLGLALNFSVF
-YEILNSPEKACSLAKTAFDEAIAELDTLNEESYKDSTLIMQLLRDNLTLWTSENQGDEGD
-AGEGEN
 ```
 
 ```
@@ -298,9 +292,14 @@ for line in fasta:
     elif line[0] != '>':
         seq = seq + line
     elif line[0] == '>' and seq != '':
+        if "Homo sapiens" in header:
+              output.write(header + seq)
+        header = line
+        seq = ''   
+
 
 if "Homo sapiens" in header:
-    output.write(header + seq)
+  output.write(header + seq)
 
 output.close()
 ```
@@ -312,14 +311,15 @@ output = open('sprot_human.fasta', 'w')
 seq = ''
 
 for line in fasta:
-if line[0]=='>':
-if seq:
-if "Homo sapiens" in header:
-output.write(header + seq)
-header = line
-seq = ''
-else:
-seq = seq + line
+  if line[0]=='>':
+    if seq:
+      if "Homo sapiens" in header:
+        output.write(header + seq)
+    header = line
+    seq = ''
+  else:
+    seq = seq + line
+
 output.close()
 ```
 <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-I.md#challenge-13">back</a>
@@ -340,11 +340,10 @@ for line in fasta:
     seq = seq + line
   elif line[0:1] == '>' and seq != '':
     TRP_num = seq.count('W')
-  if seq[0] == 'M' and TRP_num > 1:
-
-outfile.write(header + seq)
-seq = ''
-header = line
+    if seq[0] == 'M' and TRP_num > 1:
+      outfile.write(header + seq)
+    seq = ''
+    header = line
 
 TRP_num = seq.count('W')
 if seq[0] == 'M' and TRP_num > 1:
@@ -370,9 +369,9 @@ for line in InputFile:
     continue
   if flag == 1:
     fields = line.split()
-  if fields != []:
-    seq = ''.join(fields[1:])
-    OutputFile.write(seq +'\n')
+    if fields != []:
+      seq = ''.join(fields[1:])
+      OutputFile.write(seq +'\n')
 
 InputFile.close()
 OutputFile.close()

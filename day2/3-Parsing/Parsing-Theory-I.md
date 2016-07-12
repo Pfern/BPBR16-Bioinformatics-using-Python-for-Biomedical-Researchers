@@ -69,12 +69,16 @@ elif condition3 #etc...
 …
 
 else:
-  statements
+  statementN
 ```
 
 Check these conditions:
-` 'ACTC'[0] == 'C' `  is  True or false?
-` 'ACTC'[0] == 'A' `  is  True or false?
+
+- ` 'ACTC'[0] == 'C' `  is  True or false?
+- ` 'ACTC'[0] == 'A' `  is  True or false?
+
+
+Operators:
 
 ```
 ==    !=     =>    <=    >      <
@@ -83,11 +87,11 @@ Check these conditions:
 The `if/elif/else` construct produces different effects compared with the use of a series of `if` conditions
 
 ```
-nucl = ['A','C','T','G']
-if 'A' in nucl: print 'A'
-elif 'C' in nucl: print 'C'
-elif 'T' in nucl: print 'T'
-else: print 'G'
+  nucl = ['A','C','T','G']
+  if 'A' in nucl: print 'A'
+  elif 'C' in nucl: print 'C'
+  elif 'T' in nucl: print 'T'
+  else: print 'G'
 ```
 
 ```
@@ -102,7 +106,7 @@ if 'G' in nucl: print 'G'
 
 > #### **Challenge #3**
 ---
->Read a sequence in FASTA format and print only the header of the sequence
+>Read a sequence in FASTA format  from the file  `SingleSeq.fasta` and print only the header of the sequence
 >
 >
 ```
@@ -168,7 +172,7 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 
 > #### **Challenge #7**
 ---
->+   Implement program 6 by counting the number of cysteine ("C") residues in the sequence
+>+   Implement challenge #6 by counting the number of cysteine ("C") residues in the sequence
 >+   Print separately header, sequence and the number of cysteine residues
 >
 ---
@@ -180,7 +184,7 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 > #### **Challenge #8**
 ---
 >+ Read a file in FASTA format line-by-line.
->+   Print or write the record to a file only if the sequence is from Homo sapiens.
+>+   Print or write the **record** to a file only if the sequence is from Homo sapiens.
 >
 ---
 
@@ -192,6 +196,7 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 ---
 >Very often in reality you will need to analyze several sequences….
 >
+> Consider the content of the file `SwissProt-Human.fasta`
 
 ```
 SwissProt-Human.fasta
@@ -261,7 +266,7 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 
 > #### **Challenge #13**
 ---
->Read a multiple sequence FASTA file and write to a new file only the records from Homo sapiens.
+>Read the multiple sequence FASTA file `sprot_prot.fasta` and write to a new file only the records from Homo sapiens.
 >
 ---
 
