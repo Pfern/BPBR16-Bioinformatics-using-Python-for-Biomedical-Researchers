@@ -25,7 +25,14 @@
 - - 2 4 7 7
 ```
 
+<<<<<<< HEAD
 # how comfortable are you about using file  input/output  by yourself?  
+=======
+# how comfortable are you about using file input/output by yourself?
+
+# how comfortable are you about using iteration (for loops) by yourself?
+
+>>>>>>> dbc3f0f8ddbaf712221386ee1b2cf83627c1412b
 
 ```
 
