@@ -14,10 +14,7 @@ There are four types of computer readable formats in bioinformatics
 
 ![f1](../../img/ff1.png)
 
-![f2](../../img/ff1.png)
-
-
-![f1](../../img/ff2.png)
+![f2](../../img/ff2.png)
 
 ![f3](../../img/ff3.png)
 
