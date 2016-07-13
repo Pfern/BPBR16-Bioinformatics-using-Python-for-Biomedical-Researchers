@@ -103,7 +103,19 @@
 - - 1 7 9 2
 ```
 
-
+# how comfortable are you in writing your own function ?
+```
+        x 
+        x x
+        x x
+        x x
+        x x
+      x x x
+    x x x x
+    x x x x
+0 1 2 3 4 5
+- - 2 3 8 7
+```
 
 ### summary
 score 0 1 2 3 4 5 <br>
@@ -113,4 +125,5 @@ input_output - - 1 7 4 8 <br>
 iteration - - 2 5 7 6 <br>
 parsingI - - 2 4 8 4
 python objects - - - 5 9 5 <br>
-parsingII - - 1 7 9 2 <br> 
+parsingII - - 1 7 9 2 <br>
+functions - - 2 3 8 7 <br>

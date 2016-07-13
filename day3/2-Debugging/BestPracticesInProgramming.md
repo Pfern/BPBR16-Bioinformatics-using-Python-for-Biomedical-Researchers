@@ -6,8 +6,9 @@ Best practices in programming help you to do a more efficient and better science
 
 >*…if experimentalists don’t calibrate their instruments, check the purity of the reagents, take careful notes, keep tubes clean, etc. what they’re doing isn’t considered science.*
 >
-> *Why should we consider science rarely reproducible results of non tested programs?*
->
+
+Why should we consider science **rarely reproducible results of non tested programs?**
+
 
 ### Software carpentry
 *(best practices to write good programming projects)*
@@ -195,7 +196,7 @@ i.e. include documentation (metadata) describing the data
 Reproducibility requires three things:
 
 
-
+<img src="../../img/reproducibility.png" alt="slot" style="width: 300px;"/>
 
 
 ### Version control system (repository)
