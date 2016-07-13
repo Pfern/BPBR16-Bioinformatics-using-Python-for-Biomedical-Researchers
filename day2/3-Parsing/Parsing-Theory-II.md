@@ -80,7 +80,7 @@ L = []  # the empty list
 ```
 ## Operations with lists
 
-<img src="../img/parsingimgCHANGE_cccp.png" alt="slot" style="width: 300px;"/>
+<img src="../../img/parsingimgCHANGE_cccp.png" alt="slot" style="width: 300px;"/>
 
 
 ```
@@ -228,7 +228,7 @@ store them into a variable
 
 ## Indexing
 
-<img src="../img/indexing.png" alt="slot" style="width: 300px;"/>
+<img src="../../img/indexing.png" alt="indexing" style="width: 300px;"/>
 
 Computers treat an address in memory as the **starting point** of a body of data. In the same sense, an **index** in Python always refers to such a starting point, something that is **in between** two objects in memory. We humans in contrast always count the objects themselves.
 
@@ -243,7 +243,7 @@ Computers treat an address in memory as the **starting point** of a body of data
 >
 ---
 
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-1">solution to Challenge #1<a/>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-II.solutions.md#solution-to-challenge-1">solution to Challenge #1<a/>
 
 
 > ####  **Challenge #2**
@@ -255,7 +255,7 @@ from a FASTA file
 >
 ---
 
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-2">solution to Challenge #1<a/>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-II.solutions.md#solution-to-challenge-2">solution to Challenge #1<a/>
 
 
 
@@ -267,7 +267,7 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 >
 ----
 
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-3">solution to Challenge #1<a/>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-II.solutions.md#solution-to-challenge-3">solution to Challenge #1<a/>
 
 
 
@@ -289,7 +289,7 @@ MDDREDLVYQAKLAEQAERYDEMVESMKKVAGMDVELTVEERNLLSVAYKNVIGARRASWRIISSIEQKEENKGGEDKLK
 >
 ---
 
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.solutions.md#solution-to-challenge-4">solution to Challenge #1<a/>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-II.solutions.md#solution-to-challenge-4">solution to Challenge #1<a/>
 
 
 ## Putting together conditions and loops `while` loops
