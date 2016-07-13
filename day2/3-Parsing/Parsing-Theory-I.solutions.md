@@ -184,7 +184,9 @@ Note the use of `if header`:
 **There is no statement after the condition**
 
 
-In Python empty objects are `False` by default, therefore an empty object by default return `False`
+In Python empty objects are `False` by default, therefore an empty object by default return `False`.
+
+
 Therefore `header` here is treated as indicator:
 - if it is empty it is `False`
 - once is filled it become `True`
