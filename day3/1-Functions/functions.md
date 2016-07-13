@@ -124,7 +124,9 @@ In order to use a function, you have first to define it and then to call it
 >
 ---
 
-
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/1-Functions/functions.solutions.md#solution-to-challenge-1">solution to challenge #1<a/>
+<br>
+<br>
 
 ## General remarks
 
@@ -158,6 +160,10 @@ print triangle_area.__doc__
 > Define a function with two arguments: `get_values(arg1, arg2)` that returns the sum, the difference, and the product of `arg1` and `arg2`.
 >
 ---
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/1-Functions/functions.solutions.md#solution-to-challenge-2">solution to challenge #2<a/>
+<br>
+<br>
 
 
 
@@ -315,8 +321,10 @@ Write a function that takes as arguments two points [x1, y1, z1] and [x2, y2, z2
 >
 ---
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/1-Functions/functions.solutions.md#solution-to-challenge-3">solution to challenge #3<a/>
 <br>
 <br>
+
 
 > ####  **Challenge #4**
 ---
@@ -329,8 +337,10 @@ Write a function that :
 >
 ---
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/1-Functions/functions.solutions.md#solution-to-challenge-4">solution to challenge #4<a/>
 <br>
 <br>
+
 
 > ####  **Challenge #5**
 ---
@@ -338,8 +348,10 @@ Insert the function call in a for loop running on a list of 3 sequence file name
 >
 ---
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/1-Functions/functions.solutions.md#solution-to-challenge-5">solution to challenge #5<a/>
 <br>
 <br>
+
 
 > ####  **Challenge #6**
 ---
@@ -350,15 +362,20 @@ Consider two output schemes for exercise 4:
 ---
 
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/1-Functions/functions.solutions.md#solution-to-challenge-6">solution to challenge #6<a/>
+<br>
+<br>
 
-<br>
-<br>
 
 > ####  **Challenge #7**
 ---
 >Write a function that takes as argument a Genbank record and returns the nucleotide sequence in FASTA format.
 >
 ---
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/1-Functions/functions.solutions.md#solution-to-challenge-7">solution to challenge #7<a/>
+<br>
+<br>
 
 
 ## General remarks

@@ -14,6 +14,9 @@ def triangle_area(b, h):
 
 print triangle_area(2.28, 3.55)
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/1-Functions/functions.md#challenge-1">back</a>
+<br>
+<br>
 
 #### Solution to challenge #2
 
@@ -26,6 +29,9 @@ def get_values(arg1, arg2):
 
 print get_values(15, 8)
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/1-Functions/functions.md#challenge-2">back</a>
+<br>
+<br>
 
 
 
@@ -45,6 +51,9 @@ p2 = (45.83, 31.11, 92.04)
 
 print "Distance:", distance(p1, p2)
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/1-Functions/functions.md#challenge-3">back</a>
+<br>
+<br>
 
 #### Solution to challenge #4
 
@@ -57,6 +66,9 @@ def return_header(filename):
 
 print return_header('SingleSeq.fasta')
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/1-Functions/functions.md#challenge-4">back</a>
+<br>
+<br>
 
 
 #### Solution to challenge #5
@@ -74,6 +86,10 @@ filenames = ['SingleSeq1.fasta',
 for name in filenames:
     print return_header(name)
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/1-Functions/functions.md#challenge-5">back</a>
+<br>
+<br>
+
 
 #### Solution to challenge #6
 one possible solution
@@ -115,6 +131,9 @@ for name in filenames:
 
 output.close()
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/1-Functions/functions.md#challenge-6">back</a>
+<br>
+<br>
 
 #### Solution to challenge #7
 
@@ -141,94 +160,6 @@ OutputFile.close()
 filename = "ap006852.gbk"
 genbank2fasta(filename)
 ```
-
-## General remarks
-
--  Python uses **dynamical** namespaces: when a function is
-called, *its namespace is automatically created*
-
-- The variables defined in the body of a function live in its *local* namespace and not in the script (or module) *global* namespace
-
-- Local objects can be made global using the **global** statement
-
-- When a function is called, names of the objects used in its body
-are first searched in the function namespace and subsequently,
-if they are not found in the function body, they are searched in
-the script (module) global namespace.
-
-```
->>> def f():
-...     x = 100
-...     return x
-...
->>> print x
-Traceback (most recent call last):
-File "<stdin>", line 1, in <module>
-NameError: name 'x' is not defined
->>> f()
-100
->>> print x
-Traceback (most recent call last):
-File "<stdin>", line 1, in <module>
-NameError: name 'x' is not defined
->>>
-```
-`x` is a local name of the function `f()` namespace and it is not
-recognised by the `print` statement in the main script  even
-after the function call
-
-```
->>> def g():
-...     global x
-...     x = 200
-...     return x
-...
->>> print x
-Traceback (most recent call last):
-File "<stdin>", line 1, in <module>
-NameError: name 'x' is not defined
->>> g()
-200
->>> print x
-200
->>>
-```
-
-The variable `x`, defined in the body of the `g()` function, is made
-global using the **global** statement but is recognised by the
-`print` statement in the main script  only after the function call
-
-```
->>> y = "ACCTGGCACAA"
->>> def h():
-...     print y
-...
->>> h()
-'ACCTGGCACAA'
-```
-
-`y` is recognized when `h()` is called as it is a global name.
-The  number  of  arguments  can  be  variable  (i.e.  can  change  from  one function call to the other); in this case, you can use * or ** symbols.
-
-1st  case             (\*args) =>          tuple of arguments
-2nd  case             (\**args)=>          dictionary of arguments
-
-```
->>> def print_args(\*args):
-...     print args
-...     return
-...
->>> print_args(1,2,3,4,5)
-(1, 2, 3, 4, 5)
->>> print_args("Hello world!")
-(‘Hello world!’,)
->>> print_args(100, 200, "ACCTGGCACAA")
-(100, 200, ‘ACCTGGCACAA’)
->>> def print_args2(**args):
-...     print args
-...     return
-...
->>>  print_args2(num  =  100,  num2  =  200, seq  =
-"ACCTGGCACAA")
-{'num': 100, 'seq': 'ACCTGGCACAA', 'num2': 200}
-```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/1-Functions/functions.md#challenge-7">back</a>
+<br>
+<br>
