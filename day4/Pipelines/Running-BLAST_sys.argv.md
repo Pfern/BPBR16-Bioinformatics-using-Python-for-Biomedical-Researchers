@@ -138,6 +138,9 @@ print sys.argv
 >
 ---
 
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day4/Pipelines/Running-BLAST_sys.argv.solutions.md#solution-to-challenge-1">solution to challenge #1<a/>
+<br>
+<br>
 
 
 >#### Challenge #2
@@ -163,6 +166,11 @@ seqs = ['P00519', 'P05480', 'P12931']
 >
 ---
 
+a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day4/Pipelines/Running-BLAST_sys.argv.solutions.md#solution-to-challenge-2">solution to challenge #2<a/>
+<br>
+<br>
+
+
 
 
 >#### Challenge #3
@@ -170,3 +178,7 @@ seqs = ['P00519', 'P05480', 'P12931']
 >Read the three blast output files and write to a new file file the values in the first and the third columns just for the first line of each file.
 >
 ---
+
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day4/Pipelines/Running-BLAST_sys.argv.solutions.md#solution-to-challenge-3">solution to challenge #3<a/>
+<br>
+<br>
