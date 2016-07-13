@@ -35,6 +35,9 @@ for row in data:
     row = [str(x) for x in row]
       print "\t".join(row)
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/4-TabularData/TabularData.md#challenge-1"> back<a/>
+<br>
+<br>
 
 
 #### Solution to challenge #2
@@ -53,6 +56,9 @@ for line in neurons:
         table2.append([col[0],float(col[1])])
 
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/4-TabularData/TabularData.md#challenge-2"> back<a/>
+<br>
+<br>
 
 
 #### Solution to challenge #3
@@ -67,6 +73,9 @@ table1.sort(key=itemgetter(1))
 print table1[-3:]
 ```
 
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/4-TabularData/TabularData.md#challenge-3"> back<a/>
+<br>
+<br>
 
 
 #### Solution to challenge #4
@@ -80,6 +89,9 @@ print lengths
 # print average
 print sum(lengths) / len(lengths)
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/4-TabularData/TabularData.md#challenge-4"> back<a/>
+<br>
+<br>
 
 
 #### Solution to challenge #5
@@ -93,6 +105,11 @@ Create an empty table of 10 x 10 cells
 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0,
 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/4-TabularData/TabularData.md#challenge-5"> back<a/>
+<br>
+<br>
+
+
 #### Solution to challenge #6
 Fill the table with the numbers from 1 to 100
 ```
@@ -112,6 +129,11 @@ Fill the table with the numbers from 1 to 100
 '80'], ['81', '82', '83', '84', '85', '86', '87', '88', '89', '90'], ['91', '92', '93', '94',
 '95', '96', '97', '98', '99', '100']]
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/4-TabularData/TabularData.md#challenge-6"> back<a/>
+<br>
+<br>
+
+
 #### Solution to challenge #7
 Save the table to a tab-separated file
 ```
@@ -128,4 +150,6 @@ outfile = open("table100.txt", "w")
 for row in empty_table:
     outfile.write('\t'.join(row) + '\n')
 outfile.close()
-```
+```<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/4-TabularData/TabularData.md#challenge-7"> back<a/>
+<br>
+<br>

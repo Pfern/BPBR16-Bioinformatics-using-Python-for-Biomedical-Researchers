@@ -321,6 +321,10 @@ print data_sorted
 ---
 
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/4-TabularData/TabularData.solutions.md#solution-to-challenge-1"> solution to challenge #1<a/>
+<br>
+<br>
+
 
 Sort a table by the first column, then by the second, then by the third, and so on…
 
@@ -397,6 +401,10 @@ Secondary 214.723
 >
 ---
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/4-TabularData/TabularData.solutions.md#solution-to-challenge-2"> solution to challenge #2<a/>
+<br>
+<br>
+
 
 
 > ####  **Challenge #3**
@@ -405,12 +413,20 @@ Secondary 214.723
 >
 ---
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/4-TabularData/TabularData.solutions.md#solution-to-challenge-3"> solution to challenge #3<a/>
+<br>
+<br>
+
 
 > ####  **Challenge #4**
 ---
 >Turn the table and calculate the length average
 >
 ---
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/4-TabularData/TabularData.solutions.md#solution-to-challenge-4"> solution to challenge #41<a/>
+<br>
+<br>
 
 
 
@@ -420,6 +436,10 @@ Secondary 214.723
 >
 ---
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/4-TabularData/TabularData.solutions.md#solution-to-challenge-5"> solution to challenge #5<a/>
+<br>
+<br>
+
 
 > ####  **Challenge #6**
 ---
@@ -427,8 +447,17 @@ Secondary 214.723
 >
 ---
 
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/4-TabularData/TabularData.solutions.md#solution-to-challenge-6"> solution to challenge #6<a/>
+<br>
+<br>
+
+
 > ####  **Challenge #7**
 ---
 >Save the table to a tab-separated file.
 >
 ---
+
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/4-TabularData/TabularData.solutions.md#solution-to-challenge-7"> solution to challenge #7<a/>
+<br>
+<br>
