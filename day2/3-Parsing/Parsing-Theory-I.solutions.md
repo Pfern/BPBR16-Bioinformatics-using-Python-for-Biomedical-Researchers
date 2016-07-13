@@ -169,9 +169,9 @@ for line in seq_fasta:
     if line[0] == '>':
         if "Homo sapiens" in line:
             header = line
-        else:
-            if header:
-                seq = seq + line
+    else:
+        if header:
+            seq = seq + line
 
 if header:
     print header + seq
