@@ -78,6 +78,8 @@ L = [1, [2,3], 4.52, 'DNA']
 L = []  # the empty list
 
 ```
+## Operations with lists
+
 <img src="../img/parsingimgCHANGE_cccp.png" alt="slot" style="width: 300px;"/>
 
 
@@ -224,6 +226,14 @@ The `xrange()` method generates the values upon call, i.e. it does not
 store them into a variable
 
 
+## Indexing
+
+<img src="../img/indexing.png" alt="slot" style="width: 300px;"/>
+
+Computers treat an address in memory as the **starting point** of a body of data. In the same sense, an **index** in Python always refers to such a starting point, something that is **in between** two objects in memory. We humans in contrast always count the objects themselves.
+
+
+
 > ####  **Challenge #1**
 ---
 >
@@ -262,36 +272,19 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 
 
 
-Check the file `SwissProt-Human.fasta`
+> ####  **Challenge #4**
+---
+>Read a multiple sequence file in FASTA format and write to a new file only the records the Uniprot ACs of which are present in the list created in Program 1
+>
+>Check the file `SwissProt-Human.fasta`
 
 ```
 >sp|P31946|1433B_HUMAN 14-3-3 protein beta/alpha OS=Homo sapiens
-MTMDKSELVQKAKLAEQAERYDDMAAAMKAVTEQGHELSNEERNLLSVAYKNVVGARR
-SS
-WRVISSIEQKTERNEKKQQMGKEYREKIEAELQDICNDVLELLDKYLIPNATQPESKVFY
-LKMKGDYFRYLSEVASGDNKQTTVSNSQQAYQEAFEISKKEMQPTHPIRLGLALNFSVFY
-YEILNSPEKACSLAKTAFDEAIAELDTLNEESYKDSTLIMQLLRDNLTLWTSENQGDEGD
-AGEGEN
+MTMDKSELVQKAKLAEQAERYDDMAAAMKAVTEQGHELSNEERNLLSVAYKNVVGARRSSWRVISSIEQKTERNEKKQQMGKEYREKIEAELQDICNDVLELLDKYLIPNATQPESKVFYLKMKGDYFRYLSEVASGDNKQTTVSNSQQAYQEAFEISKKEMQPTHPIRLGLALNFSVFYYEILNSPEKACSLAKTAFDEAIAELDTLNEESYKDSTLIMQLLRDNLTLWTSENQGDEGDAGEGEN
 >sp|P62258|1433E_HUMAN 14-3-3 protein epsilon OS=Homo sapiens
-MDDREDLVYQAKLAEQAERYDEMVESMKKVAGMDVELTVEERNLLSVAYKNVIGARRAS
-W
-RIISSIEQKEENKGGEDKLKMIREYRQMVETELKLICCDILDVLDKHLIPAANTGESKVF
-YYKMKGDYHRYLAEFATGNDRKEAAENSLVAYKAASDIAMTELPPTHPIRLGLALNFSVF
-YYEILNSPDRACRLAKAAFDDAIAELDTLSEESYKDSTLIMQLLRDNLTLWTSDMQGDGE
-EQNKEALQDVEDENQ
->sp|Q04917|1433F_HUMAN 14-3-3 protein eta OS=Homo sapiens GN=YWHAH
-MGDREQLLQRARLAEQAERYDDMASAMKAVTELNEPLSNEDRNLLSVAYKNVVGARRSS
-W
-RVISSIEQKTMADGNEKKLEKVKAYREKIEKELETVCNDVLSLLDKFLIKNCNDFQYESK
-VFYLKMKGDYYRYLAEVASGEKKNSVVEASEAAYKEAFEISKEQMQPTHPIRLGLALNFS
-VFYYEIQNAPEQACLLAKQAFDDAIAELDTLNEDSYKDSTLIMQLLRDNLTLWTSDQQDE
-EAGEGN
+MDDREDLVYQAKLAEQAERYDEMVESMKKVAGMDVELTVEERNLLSVAYKNVIGARRASWRIISSIEQKEENKGGEDKLKMIREYRQMVETELKLICCDILDVLDKHLIPAANTGESKVFYYKMKGDYHRYLAEFATGNDRKEAAENSLVAYKAASDIAMTELPPTHPIRLGLALNFSVFYYEILNSPDRACRLAKAAFDDAIAELDTLSEESYKDSTLIMQLLRDNLTLWTSDMQGDGEEQNKEALQDVEDENQ
+>sp|Q04917|1433F_HUMAN 14-3-3 protein eta OS=Homo sapiens GN=YWHAHMGDREQLLQRARLAEQAERYDDMASAMKAVTELNEPLSNEDRNLLSVAYKNVVGARRSSWRVISSIEQKTMADGNEKKLEKVKAYREKIEKELETVCNDVLSLLDKFLIKNCNDFQYESKVFYLKMKGDYYRYLAEVASGEKKNSVVEASEAAYKEAFEISKEQMQPTHPIRLGLALNFSVFYYEIQNAPEQACLLAKQAFDDAIAELDTLNEDSYKDSTLIMQLLRDNLTLWTSDQQDEEAGEGN
 ```
-
-> ####  **Challenge #4**
----
->Read a multiple sequence file in FASTA format and write to a new file only the records the Uniprot ACs of which are
-present in the list created in Program 1
 >
 >
 ---
@@ -330,8 +323,7 @@ BUT:
 - 0
 - Empty data structures: '',(),[],{}
 
-The statements in an if or a while block are executed only if the
-condition returns the value True.
+The statements in an `if` or a `while` block are executed only if the condition returns the value `True`.
 
 ```
 >>> p = 'protein'
@@ -346,7 +338,7 @@ True
 ...
 0 1 2 3 4 5
 >>>
-````
+```
 
 We can use while loops to read files
 (but usually we won't do it):
@@ -357,7 +349,7 @@ cancer_file = open('cancer-expressed.txt')
 cancer_list = []
 line = cancer_file.readline()
 while line:
-AC = line.strip()
-cancer_list.append(AC)
-line = cancer_file.readline()
+  AC = line.strip()
+  cancer_list.append(AC)
+  line = cancer_file.readline()
 ```

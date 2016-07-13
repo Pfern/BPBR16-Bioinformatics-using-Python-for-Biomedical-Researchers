@@ -7,8 +7,8 @@ cancer_file = open('cancer-expressed.txt')
 cancer_list = []
 
 for line in cancer_file:
-AC = line.strip()
-cancer_list.append(AC)
+  AC = line.strip()
+  cancer_list.append(AC)
 print cancer_list
 ```
 <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.md#challenge-1">back<a/>
@@ -20,9 +20,9 @@ print cancer_list
 InputFile = open("SwissProtHuman.fasta","r")
 AC_list = []
 for line in InputFile:
-if line[0] == '>':
-fields = line.split('|')
-AC_list.append(fields[1])
+  if line[0] == '>':
+    fields = line.split('|')
+    AC_list.append(fields[1])
 print AC_list
 ```
 <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/Parsing-Theory-II.md#challenge-2">back<a/>
@@ -44,8 +44,8 @@ for line in cancer_file:
 for line in human_fasta:
   if line[0] == '>':
     AC = line.split('|')[1]
-  if AC in cancer_list:
-    Outfile.write(line)
+    if AC in cancer_list:
+      Outfile.write(line)
 
 Outfile.close()
 ```
@@ -75,14 +75,14 @@ for line in human_fasta:
     if seq:
       if AC in cancer_list:
         Outfile.write(header + seq)
-        header = line
-        AC = line.split('|')[1]
-seq = ''
-else:
-seq = seq + line
+      header = line
+      AC = line.split('|')[1]
+      seq = ''
+  else:
+    seq = seq + line
 
 if AC in cancer_list:
-Outfile.write(header+seq)
+  Outfile.write(header+seq)
 ```
 
 another possible solution:
@@ -94,18 +94,18 @@ Outfile = open('cancer_expressed.fasta','w')
 cancer_list = []
 
 for line in cancer_file:
-AC = line.strip()
-cancer_list.append(AC)
+  AC = line.strip()
+  cancer_list.append(AC)
 
 for line in human_fasta:
-if line[0] == ">":
-field = line.split("|")
-AC = field[1]
-if AC in cancer_list:
-Outfile.write(line)
-else:
-if AC in cancer_list:
-Outfile.write(line)
+  if line[0] == ">":
+    field = line.split("|")
+    AC = field[1]
+    if AC in cancer_list:
+      Outfile.write(line)
+  else:
+    if AC in cancer_list:
+      Outfile.write(line)
 Outfile.close()
 ```
 
