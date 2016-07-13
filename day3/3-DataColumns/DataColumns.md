@@ -5,10 +5,10 @@
 ## Reading  data from a table and writing data to a table
 
 After this module you can:
-+   Read a list of numbers from a text file
-+  Write a list of numbers to a text file
-+  Calculate an average value
-+  Calculate a standard deviation
++ Read a list of numbers from a text file to a list
++ Calculate the average value of a list of numbers
++ Calculate the average value of the numbers of a table's column
++ Write a list of numbers to a text file
 
 <img src="../../img/neuron.png" alt="slot" style="width: 300px;"/>
 
@@ -42,7 +42,7 @@ and the file `neuron_data-2.txt` that contains the same data plus an extra colum
 ### What do we have to do?
 
 +  Read data columns from files
-+  Store data columns to data structures
++  Store data columns to data structures (lists)
 +  Convert text into numbers
 +  Convert numbers into text
 +  Write text to data columns (i.e. with appropriate format)
@@ -61,13 +61,10 @@ and the file `neuron_data-2.txt` that contains the same data plus an extra colum
 - `str()`  Converts an object into a string
 - `repr()` Converts an object into a string
 
-
-
 > ####  **Challenge #1**
 ---
->1.  Write a program that reads the file with neuron lengths (`neuron_data.txt`) and saves an identical copy of the file.
->2. Extend the program so that neuron lengths are stored as floating point numbers into a list.
->
+> Write a program that reads the file with neuron lengths (neuron_data.txt) and stores neuron lengths as floating point numbers into a list.
+
 ---
 
 See the solution to <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/3-DataColumns/DataColumns.solutions.md#solution-to-challenge-1"> challenge #1<a/>
@@ -99,8 +96,7 @@ See the solution to <a href="https://github.com/Pfern/BPBR16-Bioinformatics-usin
 
 > ####  **Challenge #3**
 ---
->1.  Extend program 1 so that it calculates the neuron length average and prints it.
->2.  Extend program 2 so that it calculates the neuron length average separately for primary and secondary neurons. Print the two averages: which neurons are on average longer?
+>Extend program 2 so that it calculates the neuron length average separately for primary and secondary neurons. Print the two averages: which neurons are on average longer?
 >
 ---
 
