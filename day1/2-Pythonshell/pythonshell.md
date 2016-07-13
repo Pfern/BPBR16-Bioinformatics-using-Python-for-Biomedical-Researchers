@@ -67,6 +67,9 @@ numbers
 >
 ----
 
+<br>
+<br>
+
 ### Variables
 Variables are containers for data.
 
@@ -114,8 +117,9 @@ Find the matching pairs of functions and x/y values.
 + Third, and only if it is really necessary,
 make it fast.
 
----
+<br>
 > **Challenge #2**
+---
 >+   The diameter of a cell is 10 μm.
 >+ What volume does that cell have given it is a perfect sphere?
 >+  Use Python to do the calculation.
@@ -125,11 +129,13 @@ make it fast.
 ---
 
 
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/Pythonshell/pythonshell.solutions.md#solution-to-challenge-2">Solution to challenge #2</a>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/2-Pythonshell/pythonshell.solutions.md#solution-to-challenge-2">Solution to challenge #2</a>
+<br>
+<br>
 
 
----
 > **Challenge #3**<br>
+---
 >Calculate the distance between two points in the 3D space
 >
 >Given two points in the Cartesian space:
@@ -148,10 +154,13 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 
 
 
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/Pythonshell/pythonshell.solutions.md#solution-to-challenge-3">Solution to challenge #3</a>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/2-Pythonshell/pythonshell.solutions.md#solution-to-challenge-3">Solution to challenge #3</a>
+<br>
+<br>
 
----
+
 > **Challenge #4**<br>
+---
 >Find cysteine bonds in the Insulin structure
 >
 >+   Data in 2OMH.pdb
@@ -190,8 +199,8 @@ ATOM     15  C   VAL A   3      -7.193  14.102   4.747  1.00 19.43           C
 ATOM     16  O   VAL A   3      -6.395  14.820   5.357  1.00 19.23           O
 ```
 
----
 > **Challenge #5**<br>
+---
 >The hydrolysis of one phosphodiester bond from ATP results in a standard Gibbs energy (ΔG<sup>0</sup>) of -30.5 kJ/mol. According to biochemistry textbooks, the real ΔG value depends on the concentration of the compounds and these concentrations can differ quite a lot among tissues.
 >
 >The Gibbs energy as a function of the concentrations of the compounds can be written as:
@@ -211,7 +220,7 @@ ATOM     16  O   VAL A   3      -6.395  14.820   5.357  1.00 19.23           O
 ---
 
 
-See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/Pythonshell/pythonshell.solutions.md#solution-to-challenge-5">Solution to challenge #5</a>
+See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day1/2-Pythonshell/pythonshell.solutions.md#solution-to-challenge-5">Solution to challenge #5</a>
 
 
 
