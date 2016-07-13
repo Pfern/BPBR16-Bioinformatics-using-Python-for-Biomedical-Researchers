@@ -39,7 +39,7 @@ Days |Lessons \& Tutorials |
 ------------ | -------------|
 day 1 | [Intro](day1/intro.md), [Unix/Linux command line](day1/1-Unix/Unix-Theory-BPBR16.md), [Python Shell](day1/2-Pythonshell/pythonshell.md) |
 day 2 |[Python Programs](day2/1-PythonPrograms/PythonPrograms.md), [Repeating Things](day2/2-RepeatingThings/RepeatingThings.md), [Structures and Modules](day2/1-PythonPrograms/PythonStructureModulesImport.md), [File Formats](day2/3-Parsing/FileFormats.md),  [Parsing I](day2/3-Parsing/Parsing-Theory-I.md), [Parsing II](day2/3-Parsing/Parsing-Theory-II.md)|
-day 3 |[Functions](day3/3-Functions/functions.md), [Data Columns](day3/DataColumns/DataColumns.md),  [Tabular Data](day3/TabularData/TabularData.md), [Best Practices](day3/Debugging/BestPracticesInProgramming.md), [Error Handling](day3/Debugging/ErrorHandling.md) |
+day 3 |[Functions](day3/1-Functions/functions.md), [Data Columns](day3/DataColumns/DataColumns.md),  [Tabular Data](day3/TabularData/TabularData.md), [Best Practices](day3/Debugging/BestPracticesInProgramming.md), [Error Handling](day3/Debugging/ErrorHandling.md) |
 day 4 |[Data Searching](day4/DataSearching/DataSearching.md), [NGS pipeline](day4/Pipelines/NGS_pipeline.md), [BLAST Pipeline](day4/Pipelines/Running-BLAST_sys.argv.md), [Python libraries]|
 day 5 |[Hackaton] |
 =======
