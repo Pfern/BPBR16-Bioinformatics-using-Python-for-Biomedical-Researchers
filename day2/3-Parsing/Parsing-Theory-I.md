@@ -171,11 +171,11 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 >
 ---
 
-<br>
-<br>
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-7">solution to challenge #7</a>
 
+<br>
+<br>
 
 > #### **Challenge #8**
 ---
@@ -183,9 +183,6 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 >+   Print or write the **record** to a file only if the sequence is from Homo sapiens.
 >
 ---
-
-<br>
-<br>
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-8">solution to challenge #8</a>
 
