@@ -20,7 +20,7 @@
 -  only by running BLAST locally you have full control over the sequence database and by that, reproducibility of your search
 
 ## Running Blast locally
--  Download and install the BLAST+ package from [here]((http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
+-  Download and install the BLAST+ package from [here](http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
 -  BLAST manual can be find [here](http://www.ncbi.nlm.nih.gov/books/NBK1762/)
 -  The downloaded files are unpacked into a BLAST directory, and you have to add the path of this directory to the PATH environment variable of your computer (i.e. tell your system where to look for the installed BLAST programs)
 -  Otherwise, you have to change to the BLAST directory on the shell and run BLAST from there
@@ -129,83 +129,43 @@ print sys.argv
 ['sys_argv.py', 'ap006852.gbk', 'ap006852.fasta']
 ```
 
-### Program 1
+>#### Challenge #1
+---
+>- Read the ap006852.gbk  file into a program (read_gbk.py) from the command line;
+>- Read the file line-by-line and print the line corresponding to the 'LOCUS' identifier;
+>-   Run the program.
+>
+---
 
 
-- Read the ap006852.gbk  file into a program (read_gbk.py) from
-the command line;
-- Read the file line-by-line and print the line corresponding to the
-'LOCUS' identifier;
--   Run the program.
 
-#### Program 1 - solution
-```
-import sys
-
-print sys.argv
-
-filename = sys.argv[1]
-
-gbk = open(filename)
-
-for line in gbk:
-    if line[0:5] == 'LOCUS':
-        print line
-
-```
-python read_gbk.py ap006852.gbk
-
-### Program 2
-Run Blastp from a script for the three sequences
+>#### Challenge #2
+---
+>Run Blastp from a script for the three sequences
 ```
 seqs = ['P00519', 'P05480', 'P12931']
 ```
-Use subprocess and a tabular format for the output
-
-The option for the output format is `-outfmt`<br/>
-0 = pairwise<br/>
-1 = query-anchored showing identities<br/>
-2 = query-anchored no identities<br/>
-3 = flat query-anchored, show identities<br/>
-4 = flat query-anchored, no identities<br/>
-5 = XML Blast output<br/>
-6 = tabular<br/>
-7 = tabular with comment lines<br/>
-8 = Text ASN.1<br/>
-9 = Binary ASN.1<br/>
-10 = Comma-separated values<br/>
-
-#### Program 2 - solution
-```
-import subprocess
-
-seqs = ['P00519', 'P05480', 'P12931']
-
-for seq in seqs:
-      command_line = ['blastp','-query',
-                seq + '.fasta','-out',
-                seq + '_blout', '-outfmt',
-                '6','-db','nr.00']
-      subprocess.call(command_line)
-```
-
-### Program 3
+>Use subprocess and a tabular format for the output
+>
+>The option for the output format is `-outfmt`<br/>
+>0 = pairwise<br/>
+>1 = query-anchored showing identities<br/>
+>2 = query-anchored no identities<br/>
+>3 = flat query-anchored, show identities<br/>
+>4 = flat query-anchored, no identities<br/>
+>5 = XML Blast output<br/>
+>6 = tabular<br/>
+>7 = tabular with comment lines<br/>
+>8 = Text ASN.1<br/>
+>9 = Binary ASN.1<br/>
+>10 = Comma-separated values<br/>
+>
+---
 
 
-Read the three blast output files and write to a new file
-file the values in the first and the third columns just for
-the first line of each file.
 
-#### Program 3 - solution
-```
-seqs = ['P00519', 'P05480', 'P12931']
-
-out = open('blast_best_scores', 'w')
-
-for seq in seqs:
-      first_line = open(seq + '_blout').readline()
-      column = first_line.split()
-      out.write(column[0] + '\t' + column[2] + '\n')
-
-out.close()
-```
+>#### Challenge #3
+---
+>Read the three blast output files and write to a new file file the values in the first and the third columns just for the first line of each file.
+>
+---
