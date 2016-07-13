@@ -178,6 +178,17 @@ if header:
 else:
     print "The record is not from H. sapiens"
 ```
+
+Note the use of `if header`:
+
+**There is no statement after the condition**
+
+
+In Python empty objects are `False` by default, therefore an empty object by default return `False`
+Therefore `header` here is treated as indicator:
+- if it is empty it is `False`
+- once is filled it become `True`
+
 <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.md#challenge-8">back</a>
 
 
