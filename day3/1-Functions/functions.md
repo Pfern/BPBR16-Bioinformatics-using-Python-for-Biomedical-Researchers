@@ -15,7 +15,7 @@ that you are using a **built-in** object
 
 The collection of object names defined in a module represents the global **namespace** of that module
 
-Each module defines its own namespace
+Each module defines its own namespace.
 
 
 The same name (e.g. `src`) in two different modules (e.g. `module_1.py` and `module_2.py`), indicates two distinct objects and the dot syntax makes it possible to avoid confusion between the namespaces of the two modules
@@ -32,12 +32,10 @@ What actually happens when the command **import** is executed?
 The code written in the imported module is entirely interpreted and **the module global namespace is imported as well**
 
 
-**Where** the Python interpreter searches a module when you
-import it?
+**Where** the Python interpreter searches a module when you import it?
 
 
-**Where**  do  you  have  to  save  a  module  in  order  the
-interpreter can find it?
+**Where**  do  you  have  to  save  a  module  in  order  the interpreter can find it?
 
 - The module can be saved in the same directory of the
 script importing it
@@ -63,10 +61,9 @@ s/2.5/Extras/lib/python','/Library/Python/2.
 ```
 
 
-Check that the `tgac.py` module is in one of your subdirectories
-(should be in `~/Modules/Day3/Functions/d3_functions_data_scripts`)
+Check that the `tgac.py` module is in one of your subdirectories (should be in `~/day3/1-Functions/d3_functions_data_scripts`)
 
-Go to a different directory (e.g. `~/Modules/Day3/Functions`)
+Go to a different directory (e.g. `~/day3/1-Functions`)
 
 Start the interpreter and type:
 
@@ -117,32 +114,17 @@ In order to use a function, you have first to define it and then to call it
 
 
 
-### Program 1
--  Write a function triangle_area(b, h) that returns the area of a triangle
--    Call the function for b = 2.28 and h = 3.55
--    Print the result
-
-
+> ####  **Challenge #1**
+---
+>
+>-  Write a function triangle_area(b, h) that returns the area of a triangle
+>-    Call the function for b = 2.28 and h = 3.55
+>-    Print the result
 <img src="../../img/triangle.png" alt="slot" style="width: 300px;"/>
+>
+---
 
 
-
-#### Program 1 - solution
-
-```
-def triangle_area(b, h):
-    A = (b*h)/2.0 # function  body
-    return A      # function  body
-
-print triangle_area(2.28, 3.55)
-```
-
-```
-def triangle_area(b, h):
-    return (b*h)/2.0
-
-print triangle_area(2.28, 3.55)
-```
 
 ## General remarks
 
@@ -157,10 +139,7 @@ by a colon character followed by *indented instructions*
 
 ### More remarks
 
-- You   can   insert   in   the   body   of   a   function   a
-documentation  string  in  quotation  marks.  This  string
-can  be  retrieved  using  the `__doc__`  attribute  of  the
-function object
+- You   can   insert   in   the   body   of   a   function   a documentation  string  in  quotation  marks.  This  string can  be  retrieved  using  the `__doc__`  attribute  of  the function object
 
 - You can **pass arguments** to a function
 
@@ -174,29 +153,19 @@ def triangle_area(b, h):
 print triangle_area.__doc__
 ```
 
-### Program 2
+> ####  **Challenge #2**
+---
+> Define a function with two arguments: `get_values(arg1, arg2)` that returns the sum, the difference, and the product of `arg1` and `arg2`.
+>
+---
 
-Define a function with two arguments: `get_values(arg1, arg2)`
-that returns the sum, the difference, and the product of `arg1` and `arg2`.
 
-#### Program 2 - solution
-
-```
-def get_values(arg1, arg2):
-    s = arg1 + arg2
-    d = arg1 - arg2
-    p = arg1 * arg2
-    return s, d, p
-
-print get_values(15, 8)
-```
 
 ## Remarks
 -  The statement `return` exits a function, optionally passing
 back a value to the caller.
 
--   A `return`  statement  with  no  arguments  is  the  same  as
-returning `None`.
+-   A `return`  statement  with  no  arguments  is  the  same  as returning `None`.
 
 -   The returned value can be assigned to a variable
 
@@ -211,7 +180,7 @@ returning `None`.
 ```
 ## Function arguments
 
-Every Python object can be passed as argument to a function.
+Every Python object can be passed as argument to a function.<br>
 A function call can be the argument of a function too.
 
 ```
@@ -339,151 +308,58 @@ print_funct(10)
 - function arguments
 
 
-### Program 3
 
-
+> ####  **Challenge #3**
+---
 Write a function that takes as arguments two points [x1, y1, z1] and [x2, y2, z2] and returns the distance between the two points.
+>
+---
 
-#### Program 3 - solution
+<br>
+<br>
 
-```
-import math
-
-def distance(p1, p2):
-    dist = math.sqrt((p1[0]-p2[0])**2 +
-                     (p1[1]-p2[1])**2 +
-                     (p1[2]-p2[2])**2)
-    return dist
-
-p1 = (43.64, 30.72, 88.95)
-p2 = (45.83, 31.11, 92.04)
-
-print "Distance:", distance(p1, p2)
-```
-
-### Program 4
-
+> ####  **Challenge #4**
+---
 Write a function that :
 -  Takes as input a file name (of a FASTA file).
 -  Opens the file.
 -  Returns the header of the sequence record.
+>
+>Print the header.
+>
+---
 
-Print the header.
+<br>
+<br>
 
-
-#### Program 4 - solution
-
-```
-def return_header(filename):
-    fasta = open(filename)
-    for line in fasta:
-      if line[0] == '>':
-        return line
-
-print return_header('SingleSeq.fasta')
-```
-
-#### Program 5
-
-
+> ####  **Challenge #5**
+---
 Insert the function call in a for loop running on a list of 3 sequence file names.
+>
+---
 
-#### Program 5 - solution
-```
-def return_header(filename):
-    fasta = open(filename)
-    for line in fasta:
-        if line[0] == '>':
-            return line
+<br>
+<br>
 
-filenames = ['SingleSeq1.fasta',
-              'SingleSeq2.fasta',
-              'SingleSeq3.fasta']
-
-for name in filenames:
-    print return_header(name)
-```
-
-### Program 6
-
-
+> ####  **Challenge #6**
+---
 Consider two output schemes for exercise 4:
 1. All the the headers are written to the same output file
 2. Each header is written in a separate output file
+>
+---
 
 
-#### Program 6 – solution a
 
-```
-def return_header(filename):
-    fasta = open(filename)
-    for line in fasta:
-        if line[0] == '>':
-            return line
+<br>
+<br>
 
-filenames = ['SingleSeq1.fasta',
-             'SingleSeq2.fasta',
-             'SingleSeq3.fasta']
+> ####  **Challenge #7**
+---
+>Write a function that takes as argument a Genbank record and returns the nucleotide sequence in FASTA format.
+>
+---
 
-output = open("headers.txt", "w")
-
-for name in filenames:
-    output.write(return_header(name) + '\n')
-
-output.close()
-```
-
-#### Program 6 – solution b
-
-```
-def return_header(filename):
-    fasta = open(filename)
-    for line in fasta:
-        if line[0] == '>':
-          return line
-
-filenames = ['SingleSeq1.fasta',
-             'SingleSeq2.fasta',
-             'SingleSeq3.fasta']
-n = 0
-for name in filenames:
-    n = n + 1
-    output = open("header" + str(n) + ".txt", "w")
-    output.write(return_header(name))
-
-output.close()
-```
-
-### Program 7
-
-
-Write a function that takes as argument a Genbank
-record and returns the nucleotide sequence in
-FASTA format.
-
-```
-def genbank2fasta(filename):
-    name = filename.split('.')[0]
-    InputFile = open(filename)
-    OutputFile = open(name + ".fasta","w")
-    flag = 0
-    for line in InputFile:
-        if line[0:9] == 'ACCESSION':
-            AC = line.split()[1].strip()
-            OutputFile.write('>'+AC+'\n')
-        if line[0:6] == 'ORIGIN':
-            flag = 1
-            continue
-        if flag == 1:
-            fields = line.split()
-            if fields != []:
-                seq = ''.join(fields[1:])
-                OutputFile.write(seq +'\n')
-OutputFile.close()
-
-filename = "ap006852.gbk"
-genbank2fasta(filename)
-```
 
 ## General remarks
 
@@ -516,9 +392,7 @@ File "<stdin>", line 1, in <module>
 NameError: name 'x' is not defined
 >>>
 ```
-`x` is a local name of the function `f()` namespace and it is not
-recognised by the `print` statement in the main script  even
-after the function call
+`x` is a local name of the function `f()` namespace and it is not recognised by the `print` statement in the main script  even after the function call
 
 ```
 >>> def g():
@@ -537,9 +411,7 @@ NameError: name 'x' is not defined
 >>>
 ```
 
-The variable `x`, defined in the body of the `g()` function, is made
-global using the **global** statement but is recognised by the
-`print` statement in the main script  only after the function call
+The variable `x`, defined in the body of the `g()` function, is made global using the **global** statement but is recognized by the `print` statement in the main script  only after the function call
 
 ```
 >>> y = "ACCTGGCACAA"
