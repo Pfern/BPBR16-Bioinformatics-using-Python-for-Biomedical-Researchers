@@ -145,7 +145,7 @@ data2 = [16.38, 139.90, 441.46, 29.03, 40.93,
 202.07, 142.30, 346.00, 300.00]
 
 for i in xrange(len(data1)):
-Outfile.write("%i%s%f%s"%(data2[i],'\t', data1[i],'\n'))
+    Outfile.write("%i%s%f%s"%(data2[i],'\t', data1[i],'\n'))
 
 Outfile.close()
 ```
