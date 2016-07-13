@@ -245,6 +245,8 @@ Computers treat an address in memory as the **starting point** of a body of data
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-II.solutions.md#solution-to-challenge-1">solution to Challenge #1<a/>
 
+<br>
+<br>
 
 > ####  **Challenge #2**
 ---
@@ -257,7 +259,8 @@ from a FASTA file
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-II.solutions.md#solution-to-challenge-2">solution to Challenge #1<a/>
 
-
+<br>
+<br>
 
 
 > ####  **Challenge #3**
@@ -269,7 +272,8 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-II.solutions.md#solution-to-challenge-3">solution to Challenge #1<a/>
 
-
+<br>
+<br>
 
 
 > ####  **Challenge #4**

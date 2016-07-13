@@ -10,18 +10,10 @@ Two sequence records in FASTA format:
 
 ```
 >sp|P31946|1433B_HUMAN 14-3-3 protein beta/alpha OS=Homo sapiens
-MTMDKSELVQKAKLAEQAERYDDMAAAMKAVTEQGHELSNEERNLLSVAYKNVVGARR
-WRVISSIEQKTERNEKKQQMGKEYREKIEAELQDICNDVLELLDKYLIPNATQPESKVFY
-LKMKGDYFRYLSEVASGDNKQTTVSNSQQAYQEAFEISKKEMQPTHPIRLGLALNFSVF
-YEILNSPEKACSLAKTAFDEAIAELDTLNEESYKDSTLIMQLLRDNLTLWTSENQGDEGD
-AGEGEN
+MTMDKSELVQKAKLAEQAERYDDMAAAMKAVTEQGHELSNEERNLLSVAYKNVVGARRWRVISSIEQKTERNEKKQQMGKEYREKIEAELQDICNDVLELLDKYLIPNATQPESKVFYLKMKGDYFRYLSEVASGDNKQTTVSNSQQAYQEAFEISKKEMQPTHPIRLGLALNFSVFYEILNSPEKACSLAKTAFDEAIAELDTLNEESYKDSTLIMQLLRDNLTLWTSENQGDEGDAGEGEN
 
 >sp|P31946|1433B_HUMAN 14-3-3 protein beta/alpha OS=Homo sapiens
-MTMDKSELVQKAKLAEQAERYDDMAAAMKAVTEQGHELSNEERNLLSVAYKNVVGARR
-WRVISSIEQKTERNEKKQQMGKEYREKIEAELQDICNDVLELLDKYLIPNATQPESKVFY
-LKMKGDYFRYLSEVASGDNKQTTVSNSQQAYQEAFEISKKEMQPTHPIRLGLALNFSVF
-YEILNSPEKACSLAKTAFDEAIAELDTLNEESYKDSTLIMQLLRDNLTLWTSENQGDEGD
-AGEGEN
+MTMDKSELVQKAKLAEQAERYDDMAAAMKAVTEQGHELSNEERNLLSVAYKNVVGARRWRVISSIEQKTERNEKKQQMGKEYREKIEAELQDICNDVLELLDKYLIPNATQPESKVFYLKMKGDYFRYLSEVASGDNKQTTVSNSQQAYQEAFEISKKEMQPTHPIRLGLALNFSVFYEILNSPEKACSLAKTAFDEAIAELDTLNEESYKDSTLIMQLLRDNLTLWTSENQGDEGDAGEGEN
 ```
 
 > ####  **Challenge #1**
@@ -33,7 +25,8 @@ AGEGEN
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-1">solution to challenge #1</a>
 
-
+<br>
+<br>
 
 
 > #### **Challenge #2**
@@ -45,7 +38,8 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-2">solution to challenge #2</a>
 
-
+<br>
+<br>
 
 ### Writing different things depending on a condition
 
@@ -53,11 +47,7 @@ Read a sequence in FASTA format and print only the header of the sequence
 
 ```
 >sp|P31946|1433B_HUMAN 14-3-3 protein beta/alpha OS=Homo sapiens
-MTMDKSELVQKAKLAEQAERYDDMAAAMKAVTEQGHELSNEERNLLSVAYKNVVGAR
-WRVISSIEQKTERNEKKQQMGKEYREKIEAELQDICNDVLELLDKYLIPNATQPESKVFY
-LKMKGDYFRYLSEVASGDNKQTTVSNSQQAYQEAFEISKKEMQPTHPIRLGLALNFSVF
-YEILNSPEKACSLAKTAFDEAIAELDTLNEESYKDSTLIMQLLRDNLTLWTSENQGDEGD
-AGEGEN
+MTMDKSELVQKAKLAEQAERYDDMAAAMKAVTEQGHELSNEERNLLSVAYKNVVGARWRVISSIEQKTERNEKKQQMGKEYREKIEAELQDICNDVLELLDKYLIPNATQPESKVFYLKMKGDYFRYLSEVASGDNKQTTVSNSQQAYQEAFEISKKEMQPTHPIRLGLALNFSVFYEILNSPEKACSLAKTAFDEAIAELDTLNEESYKDSTLIMQLLRDNLTLWTSENQGDEGDAGEGEN
 ```
 
 Making choices: The `if/elif/else` statements
@@ -112,18 +102,15 @@ if 'G' in nucl: print 'G'
 >
 ```
 >>sp|P31946|1433B_HUMAN 14-3-3 protein beta/alpha OS=Homo sapiens
-MTMDKSELVQKAKLAEQAERYDDMAAAMKAVTEQGHELSNEERNLLSVAYKNVVGAR
-WRVISSIEQKTERNEKKQQMGKEYREKIEAELQDICNDVLELLDKYLIPNATQPESKVFY
-LKMKGDYFRYLSEVASGDNKQTTVSNSQQAYQEAFEISKKEMQPTHPIRLGLALNFSVF
-YEILNSPEKACSLAKTAFDEAIAELDTLNEESYKDSTLIMQLLRDNLTLWTSENQGDEGD
-AGEGEN
+MTMDKSELVQKAKLAEQAERYDDMAAAMKAVTEQGHELSNEERNLLSVAYKNVVGARWRVISSIEQKTERNEKKQQMGKEYREKIEAELQDICNDVLELLDKYLIPNATQPESKVFYLKMKGDYFRYLSEVASGDNKQTTVSNSQQAYQEAFEISKKEMQPTHPIRLGLALNFSVFYEILNSPEKACSLAKTAFDEAIAELDTLNEESYKDSTLIMQLLRDNLTLWTSENQGDEGDAGEGEN
 ```
 >
 ---
 
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-3">solution to challenge #3</a>
-
+<br>
+<br>
 
 > #### **Challenge #4**
 ---
@@ -135,7 +122,8 @@ only the header of the record.
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-4">solution to challenge #4</a>
 
-
+<br>
+<br>
 
 > #### **Challenge #5**
 ---
@@ -146,7 +134,8 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-5">solution to challenge #5</a>
 
-
+<br>
+<br>
 
 > #### **Challenge: Merge programs 4 and 5**
 ---
@@ -155,6 +144,9 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 ---
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-4-and-5-mergred"> solution to challenges #4 and #5 merged</a>
+
+<br>
+<br>
 
 > #### **Challenge #6**
 ---
@@ -169,7 +161,8 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-6">solution to challenge #6</a>
 
 
-
+<br>
+<br>
 
 > #### **Challenge #7**
 ---
@@ -178,6 +171,8 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 >
 ---
 
+<br>
+<br>
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-7">solution to challenge #7</a>
 
@@ -189,8 +184,13 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 >
 ---
 
+<br>
+<br>
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-8">solution to challenge #8</a>
+
+<br>
+<br>
 
 
 > #### **Challenge #9**
@@ -233,7 +233,8 @@ EAGEGN
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-9">solution to challenge #9</a>
 
-
+<br>
+<br>
 
 > #### **Challenge #10**
 ---
@@ -244,16 +245,20 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-10">solution to challenge #10</a>
 
+<br>
+<br>
 
 > #### **Challenge #11**
 ---
->Read a file in FASTA format and copy to a new file the records' AC.
+>Read a file in FASTA format and copy to a new file the records' Accession Numbers (AC).
 >
 ---
 
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-11">solution to challenge #11</a>
 
+<br>
+<br>
 
 > #### **Challenge #12**
 ---
@@ -265,6 +270,8 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-12">solution to challenge #12</a>
 
+<br>
+<br>
 
 > #### **Challenge #13**
 ---
@@ -275,6 +282,8 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-13">solution to challenge #13</a>
 
+<br>
+<br>
 
 > #### **Challenge #14 homework**
 ---
@@ -296,6 +305,8 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-I.solutions.md#solution-to-challenge-14">solution to challenge #14</a>
 
+<br>
+<br>
 
 > #### **Challenge #15 homework**
 ---
