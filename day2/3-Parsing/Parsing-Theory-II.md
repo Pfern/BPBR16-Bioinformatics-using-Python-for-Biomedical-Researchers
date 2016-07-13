@@ -288,9 +288,10 @@ MDDREDLVYQAKLAEQAERYDEMVESMKKVAGMDVELTVEERNLLSVAYKNVIGARRASWRIISSIEQKEENKGGEDKLK
 >
 >
 ---
-
+>
 See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day2/3-Parsing/Parsing-Theory-II.solutions.md#solution-to-challenge-4">solution to Challenge #1<a/>
-
+>
+---
 
 ## Putting together conditions and loops `while` loops
 The while statement is used for executing a set of statements until a given  condition is met
