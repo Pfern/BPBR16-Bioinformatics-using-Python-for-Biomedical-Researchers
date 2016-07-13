@@ -105,7 +105,7 @@
 
 # how comfortable are you in writing your own function ?
 ```
-        x 
+        x
         x x
         x x
         x x
@@ -115,6 +115,20 @@
     x x x x
 0 1 2 3 4 5
 - - 2 3 8 7
+```
+
+
+# how comfortable are you in manipulating data columns in Python by yourself ?
+
+
+
+
+```
+
+
+  x x x x x
+0 1 2 3 4 5
+- 1 2 7 7 3
 ```
 
 ### summary
@@ -127,3 +141,4 @@ parsingI - - 2 4 8 4
 python objects - - - 5 9 5 <br>
 parsingII - - 1 7 9 2 <br>
 functions - - 2 3 8 7 <br>
+data_columns
