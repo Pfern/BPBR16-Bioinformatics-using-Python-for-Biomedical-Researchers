@@ -70,6 +70,10 @@ and the file `neuron_data-2.txt` that contains the same data plus an extra colum
 >
 ---
 
+See the solution to <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/3-DataColumns/DataColumns.solutions.md#solution-to-challenge-1"> challenge #1<a/>
+<br>
+<br>
+
 
 
 > ####  **Challenge #2**
@@ -77,6 +81,11 @@ and the file `neuron_data-2.txt` that contains the same data plus an extra colum
 > Extend the program so that it read data form `neuron_data-2.txt` and  stores primary and secondary neuron lengths to different lists.
 >
 ---
+
+See the solution to <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/3-DataColumns/DataColumns.solutions.md#solution-to-challenge-2"> challenge #2<a/>
+<br>
+<br>
+
 
 ## Manipulating data in the columns
 
@@ -95,14 +104,24 @@ and the file `neuron_data-2.txt` that contains the same data plus an extra colum
 >
 ---
 
+See the solution to <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/3-DataColumns/DataColumns.solutions.md#solution-to-challenge-3"> challenge #3<a/>
+<br>
+<br>
 
 
-> ####  **Challenge #3**
+
+
+> ####  **Challenge #4**
 ---
 Extend program 3 so that it calculates the standard deviation
 of the neuron length.
 >
 ---
+
+See the solution to <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/3-DataColumns/DataColumns.solutions.md#solution-to-challenge-4"> challenge #4<a/>
+<br>
+<br>
+
 
 
 
@@ -144,6 +163,11 @@ out.close()
 >
 ---
 
+See the solution to <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/3-DataColumns/DataColumns.solutions.md#solution-to-challenge-5"> challenge #5<a/>
+<br>
+<br>
+
+
 
 ## String formatting
 
@@ -174,6 +198,11 @@ print  S.format (a,  math.sqrt(a))
 >
 ---
 
+See the solution to <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/3-DataColumns/DataColumns.solutions.md#solution-to-challenge-6"> challenge #6<a/>
+<br>
+<br>
+
+
 
 ## Reading and writing tables
 + Read each table column into a different list
@@ -195,3 +224,7 @@ print  S.format (a,  math.sqrt(a))
 >You can repeat the exercise for secondary neurons.
 >
 ----
+
+See the solution to <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day3/3-DataColumns/DataColumns.solutions.md#solution-to-challenge-7"> challenge #7<a/>
+<br>
+<br>
