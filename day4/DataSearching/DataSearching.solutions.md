@@ -16,8 +16,9 @@ for line in F:
 from tgac import codonAMINO
 prot = ''
 for i in range(0,len(seq),3):
-    if codonAMINO.has_key(seq[i:i+3]):
-        prot = prot + codonAMINO[seq[i:i+3]]
+    triplet =seq[i:i+3]
+    if codonAMINO.has_key(triplet): # check if the triplet is in the dictionary - equivalent to: if triplet in codonAMINO
+        prot = prot + codonAMINO[triplet]
     else:
         prot = prot + '*'
 
