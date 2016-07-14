@@ -69,8 +69,6 @@ In most of the cases, antigens have the form of short sequences, either because 
 HACKATHON TASKS
 ***************
 <br>
-<br>
-> Challenge #1 and Challenge #2 are independent. Choose one taking into account that  Challenge #2 is more difficult.
 
 
 The complete proteomes of P. falciparum and of two "control" organisms in FASTA format were
@@ -80,8 +78,13 @@ EMBl for Schizosaccharomyces pombe (ftp.ebi.ac.uk), and UniProt for Trichoplax a
 Eukaryotic 2) having genome size similar to that of P. falciparum 3) being non pathogenic to humans (no
 need to evolve antigen mimics).
 
+<br>
+> Challenge #1 and Challenge #2 are independent. Choose one taking into account that  Challenge #2 is more difficult.
+
+<br>
+
 ***************
-Challenge #1
+### Challenge #1
 ***************
 
 - From the file `nuclear_antigens.fasta` generate 14- amino acid long peptides (shifted by 1 position, use sliding windows). We chose as size 14 because that would be a reasonble size for antigens.
@@ -98,7 +101,7 @@ Challenge #1
 
 
 ***************
-Challenge #2
+### Challenge #2
 ***************
 
 - From the file `nuclear_antigens.fasta` generate 14- amino acid long peptides (shifted by 1 position)
