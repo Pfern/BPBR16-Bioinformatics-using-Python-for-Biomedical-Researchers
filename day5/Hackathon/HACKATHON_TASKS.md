@@ -2,9 +2,9 @@
 INTRODUCTION
 ***************
 
-### AUTOIMMUNITY AND PARASITE INFECTIONS
+#### AUTOIMMUNITY AND PARASITE INFECTIONS
 The immune system has evolved to effectively deal with infections. However, the co-evolution of
-human hosts and parasites has led to mutual benefits in certain infections (Zaccone et al. 2007).
+human hosts and parasites has led to mutual benefits in certain infections (Zaccone et al. 2008).
 
 
 Autoimmune diseases (AID) arise from an abnormal immune response of the body against
@@ -13,11 +13,11 @@ typical examples of AID. It was hypothesized that autoimmunity, in some cases, m
 parasite-host mutual adaptation. Indeed, it has been observed that some individuals with AID show an
 increased resistance to certain pathogen infections. The correlation between parasite infections and AID
 may also be crucial to provide insights into host–parasite interactions, coevolution, potential novel
-therapeutic approaches (Zaccone et al. 2007) or molecular mimicry (MM).
+therapeutic approaches (Zaccone et al. 2008) or molecular mimicry (MM).
 
 
 Different authors have observed a correlation between parasites, like helminthes, and the
-development of autoimmune pathologies in animal models and humans (Zaccone et al. 2007), by
+development of autoimmune pathologies in animal models and humans (Zaccone et al. 2008), by
 mechanisms like hyperproduction of TNF, regulatory auto-antibodies, interference with macrophage
 activity, induction of Th2-skewed responses, but also the opposite effect, the induction of the autoimmune
 pathology, by mechanisms as MM, polyclonal B cell activation, altered self antigens or production of
@@ -25,7 +25,7 @@ natural auto-antibodies by B1 cells (Zanini et al 2009).
 
 
 
-### THE RELATIONSHIP DISEASES BETWEEN MALARIA AND AUTOIMMUNE DISEASES
+#### THE RELATIONSHIP DISEASES BETWEEN MALARIA AND AUTOIMMUNE DISEASES
 
 Malaria is caused by infection with the protozoan parasite Plasmodium. In humans, the most
 severe form of malaria is caused by Plasmodium falciparum (Cowman and Crabb 2006), with more than
@@ -46,12 +46,19 @@ and Crabb, 2006), producing clinical manifestations.
 them is poorly understood.
 
 
-### AIM OF THE STUDY
+####  AIM OF THE STUDY
 The aim of this study is the identification  of new potential  *P. falciparum* antigens
 starting from a dataset of **11 human Nuclear Autoantigens (NAA) sequences** (stored in the file `nuclear_antigens.fasta`) known to stimulate a higher immune response in individuals from malaria endemic countries than in control UK population (Mangano et al., data not published).
 In most of the cases, antigens have the form of short sequences, either because they are epitopes
 
-**In order to achieve this aim we have to identify fragments of the 11 NAA with high similarity to subsequences of the *P. falciparum*  proteome.**
+**To achieve this aim we need to identify fragments of the 11 NAA with high similarity to subsequences of the *P. falciparum*  proteome.**
+
+
+
+>Cowman AF, and Crabb BS. (2006) Invasion of red blood cells by malaria parasites. Cell 124(4):755-66<br>
+>Hommel B, et al. (2014) Chronic malaria revealed by a new fluorescence pattern on the antinuclear autoantibodies test. PLoS One 9(2):e88548. doi: 10.1371/journal.pone.0088548<br>
+>Zanini GM, et al. (2009) Sera of patients with systemic lupus erythematosus react with plasmodial antigens and can inhibit the in vitro growth of Plasmodium falciparum. Autoimmunity iFirst: 1–8<br>
+>Zaccone P, Burton OT, and Cook A. (2008) Interplay of parasite-driven immune responses and autoimmunity. Trends Parasitol 24(1):35-42<br>
 
 
 
