@@ -136,12 +136,32 @@
 
 # how comfortable are you in manipulating tables in Python by yourself ?
 ```
+
+      x x
+      x x
+      x x
+      x x
+      x x
+      x x
+      x x
+      x x
+      x x x
 0 1 2 3 4 5
 - - - 9 9 1
 ```
 
 # how comfortable are you in manipulating dictionaries  in Python by yourself ?
 ```
+      x
+      x
+      x
+      x
+      x
+      x x
+      x x
+      x x x
+      x x x
+    x x x x
 0 1 2 3 4 5
 - - 1 10 5 3
 ```
