@@ -5,6 +5,7 @@
 F = open('rna_seq.fasta')
 Out = open('protein_seq.fasta','w')
 
+seq=''
 for line in F:
     if line[0] == '>':
         header = line.split()
