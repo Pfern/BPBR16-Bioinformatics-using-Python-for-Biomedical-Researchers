@@ -167,6 +167,22 @@
 ```
 
 
+# how comfortable are you about learning libraries in Python by yourself ?
+```
+
+      x
+      x
+      x x
+      x x x
+      x x x
+      x x x
+      x x x
+0 1 2 3 4 5
+- - - 7 5 4
+```
+
+
+
 ### summary
 score 0 1 2 3 4 5 <br>
 unix - - 2 3 6 9 <br>
@@ -179,4 +195,5 @@ parsingII - - 1 7 9 2 <br>
 functions - - 2 3 8 7 <br>
 data_columns - 1 2 7 7 3 <br>
 tables - - - 9 9 1 <br>
-dictionaries - - 1 10 5 3
+dictionaries - - 1 10 5 3 <br>
+libraries - - - 7 5 4 <br>
