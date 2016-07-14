@@ -72,8 +72,8 @@ HACKATHON TASKS
 
 
 The complete proteomes of P. falciparum and of two "control" organisms in FASTA format were
-obtained form different sources: PlasmoDB for Plasmodium falciparum 3D7 (www.plasmodb.org), EBI-
-EMBl for Schizosaccharomyces pombe (ftp.ebi.ac.uk), and UniProt for Trichoplax adhaerens
+obtained form different sources: [PlasmoDB](www.plasmodb.org) for Plasmodium falciparum 3D7, [EBI-
+EMBl](ftp://ftp.ebi.ac.uk/)  for Schizosaccharomyces pombe, and UniProt for Trichoplax adhaerens
 (www.uniprot.org). Control organisms were chosen in order to have the following characteristics: 1) being
 Eukaryotic 2) having genome size similar to that of P. falciparum 3) being non pathogenic to humans (no
 need to evolve antigen mimics).
