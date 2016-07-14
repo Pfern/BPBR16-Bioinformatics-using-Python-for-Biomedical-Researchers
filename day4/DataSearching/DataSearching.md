@@ -1,4 +1,4 @@
-
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers#this-repository-is-for-the-course-materials-and-it-is-organized-as-follows"> Back to Timetable</a>
 
 
 
@@ -112,11 +112,15 @@ True
 ```
 
 
-### Program 1
+>#### Challenge #1
+---
+>Using the `codonAMINO` dictonary from `tgac.py` translate the sequence in `rna_seq.fasta`. Use a single reading frame.
+>
+---
 
-#### Program 1 solution
 
-Using the `codonAMINO` dictonary from `tgac.py` translate the sequence in `rna_seq.fasta`. Use a single reading frame.
+#### Solution to challenge #1
+
 ```
 F = open('rna_seq.fasta')
 Out = open('protein_seq.fasta','w')
@@ -140,12 +144,14 @@ for i in range(0,len(seq),3):
 Out.write(prot + '\n')
 ```
 
-### Program 2
+>#### Challenge #2
+---
+>Implement program 1 for the three reading frames
+>
+---
 
-Implement program 1 for the three reading frames
 
-#### Program 2 -  solution
-
+#### Solution to challenge #2
 ```
 from tgac import codonAMINO
 
