@@ -135,7 +135,7 @@ See the <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for
 
 
 
-### Sort values of a dictionary by its keys
+## Sort values of a dictionary by its keys
 
 ```
 # sort values of a dictionary by its keys
@@ -163,20 +163,20 @@ print sort_dict_by_keys(structures)
 
 ```
 Q5XXA6                                                Q7Z769
-Q9Y5P2                                                 Q8CH62
-Q14667                                                  Q9GZY1
-O75387                                                  Q9NQQ7
+Q9Y5P2                                                Q8CH62
+Q14667                                                Q9GZY1
+O75387                                                Q9NQQ7
 Q8WV07                                                Q14667
 Q8CH62                                                Q5XXA6
 Q9GZY1                                                Q9Y5P2
-Q9NQQ7                                               Q14667
+Q9NQQ7                                                Q14667
 Q8VCX2                                                O75387
-Q7Z769                                                 Q9Y5P2
+Q7Z769                                                Q9Y5P2
 Q8CH62                                                Q8WV07
-Q14667                                                  Q8VCX2
-Q9NQQ7                                               Q8CH62
-Q14667                                                  Q14667
-Q9Y5P2                                                 Q9NQQ7
+Q14667                                                Q8VCX2
+Q9NQQ7                                                Q8CH62
+Q14667                                                Q14667
+Q9Y5P2                                                Q9NQQ7
 ```
 
 <img src="../../img/redund3.png" alt="slot" style="width: 300px;"/>
