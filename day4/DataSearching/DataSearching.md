@@ -71,21 +71,21 @@ more than one value
 >>> len(d)
 2
 
->>> d[‘pep1’]
-'MGSNKSKPKDASQRRRSLEPAENVHGAGG’
+>>> d['pep1']
+'MGSNKSKPKDASQRRRSLEPAENVHGAGG'
 
 >>> d['pep3'] = 'ASADGHRGPSAAFAPAAA'
 >>> d
 {'pep1' : 'MGSNKSKPKDASQRRRSLEPAENVHGAGG',
-'pep2' : 'RSLEPAENVHGAGGGAFPASQTPS', ‘pep3’ :
+'pep2' : 'RSLEPAENVHGAGGGAFPASQTPS', 'pep3' :
 'ASADGHRGPSAAFAPAAA'}
 ```
 
 ```
->>> del d[‘pep2’]
+>>> del d['pep2']
 >>> d
 {'pep1' : 'MGSNKSKPKDASQRRRSLEPAENVHGAGG',
-‘pep3’ : 'ASADGHRGPSAAFAPAAA'}
+'pep3' : 'ASADGHRGPSAAFAPAAA'}
 
 >>> d.clear()
 >>> d
@@ -93,21 +93,21 @@ more than one value
 ```
 
 ```
->>> dict = {“a”:1, “b”:2, “c”:3}
+>>> dict = {"a":1, "b":2, "c":3}
 >>> dict.keys()     #list of dictionary keys
-[‘a’, ‘c’, ‘b’]
+['a', 'c', 'b']
 
 >>> keys = dict.keys()
 >>> keys.sort() #sort keys
-[‘a’, ‘b’, ‘c’]
+['a', 'b', 'c']
 
 >>> dict.values() #list of dictionary values
 [1, 3, 2]
 
 >>> dict.items() #tuple of dictionary (key,value) pairs
-[(‘a’, 1), (‘c’, 3), (‘b’, 2)]
+[('a', 1), ('c', 3), ('b', 2)]
 
->>> dict.has_key(“a”)   #True if dict has key “a”, else False
+>>> dict.has_key("a")   #True if dict has key "a", else False
 True
 ```
 
@@ -218,9 +218,9 @@ with the elements from both S1 and S2.
 >>> S1 = set(['a','b','c'])
 >>> S2 = set (['c','d','e'])
 >>> S1.union(S2)
-set([‘a’, ‘c’, ‘b’, ‘e’, ‘d’])
+set(['a', 'c', 'b', 'e', 'd'])
 >>> S1 | S2
-set([‘a’, ‘c’, ‘b’, ‘e’, ‘d’])
+set(['a', 'c', 'b', 'e', 'd'])
 ```
 
 ## S1.intersection(S2)
@@ -232,9 +232,9 @@ with the elements common to S1 and S2
 >>> S1 = set(['a','b','c'])
 >>> S2 = set (['c','d','e'])
 >>> S1.intersection(S2)
-set([‘c’])
+set(['c'])
 >>> S1 & S2
-set([‘c’])
+set(['c'])
 ```
 ## S1.symmetric_difference(S2)or S1 ^ S2
 
@@ -244,9 +244,9 @@ set([‘c’])
 >>> S1 = set(['a','b','c'])
 >>> S2 = set (['c','d','e'])
 >>> S1.symmetric_difference(S2)
-set([‘a’, ‘b’, ‘e’, ‘d’])
+set(['a', 'b', 'e', 'd'])
 >>> S1 ^ S2
-set([‘a’, ‘b’, ‘e’, ‘d’])
+set(['a', 'b', 'e', 'd'])
 ```
 
 ## S1.difference(S2) or S1 - S2
@@ -257,9 +257,9 @@ The  `difference()`  of  two  sets  S1  and  S2  creates  a  new  set with eleme
 >>> S1 = set(['a','b','c'])
 >>> S2 = set (['c','d','e'])
 >>> S1.difference(S2)
-set([‘a’, ‘b’])
+set(['a', 'b'])
 >>> S1 - S2
-set([‘a’, ‘b’])
+set(['a', 'b'])
 >>> S2 – S1
-set([‘e’, ‘d’])
+set(['e', 'd'])
 ```
