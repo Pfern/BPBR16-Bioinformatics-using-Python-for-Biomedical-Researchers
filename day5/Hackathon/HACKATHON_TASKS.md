@@ -1,6 +1,8 @@
 ***************
 INTRODUCTION
 ***************
+<br>
+<br>
 
 #### AUTOIMMUNITY AND PARASITE INFECTIONS
 The immune system has evolved to effectively deal with infections. However, the co-evolution of
@@ -60,12 +62,14 @@ In most of the cases, antigens have the form of short sequences, either because 
 >Zanini GM, et al. (2009) Sera of patients with systemic lupus erythematosus react with plasmodial antigens and can inhibit the in vitro growth of Plasmodium falciparum. Autoimmunity iFirst: 1–8<br>
 >Zaccone P, Burton OT, and Cook A. (2008) Interplay of parasite-driven immune responses and autoimmunity. Trends Parasitol 24(1):35-42<br>
 
-
+<br>
+<br>
 
 ***************
 HACKATHON TASKS
 ***************
-
+<br>
+<br>
 > Challenge #1 and Challenge #2 are independent. Choose one taking into account that  Challenge #2 is more difficult.
 
 
@@ -101,9 +105,9 @@ Challenge #2
 - Write them to a file in Fasta format. Remember to assign an ID to each of them in order to identify them later
 - Search the 14-mers in the *P. falciparum* proteome (file `Plasmodium_falciparum.fasta`)
 - Search the 14-mers in the *Schizosaccharomyces pombe* proteome (file `Schizosaccharomyces_pombe.fasta`)
-- Create a table peptide_ID|score_plasm|score_pombe
+- Create a table peptide_ID|score_plasm|score_pombe<br>
       set score_plasm = 0.0 if the peptide hasn't a match in the P. falciparum proteome <br>
-      set score_pombe = 0.0 if the peptide hasn't a match in the S. pombe proteome
+      set score_pombe = 0.0 if the peptide hasn't a match in the S. pombe proteome<br>
 - Create a scatter plot of evalues of *P. falciparuma* versus *S. pombe*  and a second scatter plot of scores of *P. falciparuma* versus *S. pombe*.
 - Choose candidated among peptides with low evalues and high score that match in the P. *falciparum* proteome but not in the S. *pombe* proteome
 
