@@ -146,4 +146,4 @@ parsingI - - 2 4 8 4
 python objects - - - 5 9 5 <br>
 parsingII - - 1 7 9 2 <br>
 functions - - 2 3 8 7 <br>
-data_columns
+data_columns - 1 2 7 7 3 <br> 
