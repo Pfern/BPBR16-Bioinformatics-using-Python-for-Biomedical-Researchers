@@ -17,7 +17,7 @@ from tgac import codonAMINO
 prot = ''
 for i in range(0,len(seq),3):
     triplet =seq[i:i+3]
-    if codonAMINO.has_key(triplet): # check if the triplet is in the dictionary - equivalent to: if triplet in codonAMINO
+    if codonAMINO.has_key(triplet): # is the triplet in the dictionary? equivalent to: if triplet in codonAMINO
         prot = prot + codonAMINO[triplet]
     else:
         prot = prot + '*'
