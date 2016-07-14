@@ -120,9 +120,6 @@
 
 # how comfortable are you in manipulating data columns in Python by yourself ?
 
-
-
-
 ```
 
       x x
@@ -136,6 +133,20 @@
 - 1 2 7 7 3
 ```
 
+
+# how comfortable are you in manipulating tables in Python by yourself ?
+```
+0 1 2 3 4 5
+- - - 9 9 1
+```
+
+# how comfortable are you in manipulating dictionaries  in Python by yourself ?
+```
+0 1 2 3 4 5
+- - 1 10 5 3
+```
+
+
 ### summary
 score 0 1 2 3 4 5 <br>
 unix - - 2 3 6 9 <br>
@@ -146,4 +157,6 @@ parsingI - - 2 4 8 4
 python objects - - - 5 9 5 <br>
 parsingII - - 1 7 9 2 <br>
 functions - - 2 3 8 7 <br>
-data_columns - 1 2 7 7 3 <br> 
+data_columns - 1 2 7 7 3 <br>
+tables - - - 9 9 1 <br>
+dictionaries - - 1 10 5 3
