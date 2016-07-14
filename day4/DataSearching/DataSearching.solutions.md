@@ -23,6 +23,9 @@ for i in range(0,len(seq),3):
 
 Out.write(prot + '\n')
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day4/DataSearching/DataSearching.md#challenge-1">back<a/>
+<br>
+<br>
 
 
 
@@ -42,3 +45,6 @@ for j in range(3):
     Out.write(prot + '\n')
 prot = ''
 ```
+<a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers/blob/master/day4/DataSearching/DataSearching.md#challenge-2">back<a/>
+<br>
+<br>
