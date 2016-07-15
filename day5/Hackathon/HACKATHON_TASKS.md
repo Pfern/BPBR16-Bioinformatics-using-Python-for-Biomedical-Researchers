@@ -1,5 +1,5 @@
 <a href="https://github.com/Pfern/BPBR16-Bioinformatics-using-Python-for-Biomedical-Researchers#this-repository-is-for-the-course-materials-and-it-is-organized-as-follows"> Back to Timetable</a>
-<br> 
+<br>
 
 
 ***************
@@ -84,7 +84,8 @@ need to evolve antigen mimics).
 
 <br>
 > Challenge #1 and Challenge #2 are independent. Choose one taking into account that  Challenge #2 is more difficult.
-
+>
+> look at [hints here](HINTS.md)
 <br>
 
 ***************
